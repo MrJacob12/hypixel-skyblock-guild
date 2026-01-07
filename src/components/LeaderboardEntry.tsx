@@ -8,12 +8,12 @@ interface LeaderboardEntryProps {
 
 const LeaderboardEntry = ({ member, index }: LeaderboardEntryProps) => {
   const isTop3 = member.rank <= 3;
-  
+
   const getRankStyles = () => {
     switch (member.rank) {
       case 1:
         return {
-          scale: "scale-105",
+          scale: "scale-[1.04]",
           border: "gold-border",
           rankColor: "text-gold rank-glow-gold",
           bg: "bg-gradient-to-r from-card via-card to-yellow-950/20",
@@ -67,20 +67,28 @@ const LeaderboardEntry = ({ member, index }: LeaderboardEntryProps) => {
         >
           #{member.rank}
         </span>
-        
+
         <img
           src={`https://mc-heads.net/avatar/${member.uuid}/32`}
           alt={member.username}
           className={cn(
             "rounded-md",
-            member.rank === 1 ? "w-10 h-10" : member.rank <= 3 ? "w-8 h-8" : "w-7 h-7"
+            member.rank === 1
+              ? "w-10 h-10"
+              : member.rank <= 3
+              ? "w-8 h-8"
+              : "w-7 h-7"
           )}
         />
-        
+
         <span
           className={cn(
             "font-medium",
-            member.rank === 1 ? "text-lg" : member.rank <= 3 ? "text-base" : "text-sm"
+            member.rank === 1
+              ? "text-lg"
+              : member.rank <= 3
+              ? "text-base"
+              : "text-sm"
           )}
         >
           {member.username}
@@ -90,7 +98,11 @@ const LeaderboardEntry = ({ member, index }: LeaderboardEntryProps) => {
       <span
         className={cn(
           "font-semibold tabular-nums",
-          member.rank === 1 ? "text-lg" : member.rank <= 3 ? "text-base" : "text-sm",
+          member.rank === 1
+            ? "text-lg"
+            : member.rank <= 3
+            ? "text-base"
+            : "text-sm",
           styles.rankColor
         )}
       >

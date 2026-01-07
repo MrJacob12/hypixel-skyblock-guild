@@ -11,7 +11,7 @@ const LeaderboardCard = ({ data }: LeaderboardCardProps) => {
       <div className="flex items-baseline justify-between mb-6">
         <h2 className="text-xl font-bold text-foreground">{data.category}</h2>
         <span className="text-xs text-muted-foreground">
-          Aktualizacja: {data.lastUpdated}
+          Last update: {data.lastUpdated}
         </span>
       </div>
 

@@ -12,4 +12,12 @@ export interface LeaderboardData {
   members: GuildMember[];
 }
 
-export type LeaderboardCategory = 'skyblock-level' | 'networth';
+export interface LeaderboardMember {
+  rank: number;
+  username: string;
+  uuid: string;
+  value: number;
+  formattedValue: string;
+}
+
+export type LeaderboardCategory = "skyblock-level" | "networth";
