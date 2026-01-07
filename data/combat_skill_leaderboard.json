@@ -1,97 +1,97 @@
 {
   "category": "Combat Skill",
-  "lastUpdated": "2026-01-07 21:51:39",
+  "lastUpdated": "2026-01-07 22:07:13",
   "members": [
     {
       "rank": 1,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 65153906.03214982,
-      "formattedValue": "65153906.03214982"
+      "value": "65.15M",
+      "formattedValue": "65.15M"
     },
     {
       "rank": 2,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 62745104.339552686,
-      "formattedValue": "62745104.339552686"
+      "value": "62.75M",
+      "formattedValue": "62.75M"
     },
     {
       "rank": 3,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 58538911.317588486,
-      "formattedValue": "58538911.317588486"
+      "value": "58.54M",
+      "formattedValue": "58.54M"
     },
     {
       "rank": 4,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 47990432.52143204,
-      "formattedValue": "47990432.52143204"
+      "value": "47.99M",
+      "formattedValue": "47.99M"
     },
     {
       "rank": 5,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 44201569.11276006,
-      "formattedValue": "44201569.11276006"
+      "value": "44.20M",
+      "formattedValue": "44.20M"
     },
     {
       "rank": 6,
-      "username": "SalutSavatte",
-      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
-      "value": 37974884.45863826,
-      "formattedValue": "37974884.45863826"
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": "4.79M",
+      "formattedValue": "4.79M"
     },
     {
       "rank": 7,
-      "username": "SoloShinda",
-      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 37064244.47427917,
-      "formattedValue": "37064244.47427917"
+      "username": "SalutSavatte",
+      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+      "value": "37.97M",
+      "formattedValue": "37.97M"
     },
     {
       "rank": 8,
-      "username": "ArtOfRat",
-      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 31906062.928055767,
-      "formattedValue": "31906062.928055767"
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": "37.06M",
+      "formattedValue": "37.06M"
     },
     {
       "rank": 9,
-      "username": "Akse_e",
-      "uuid": "5bfccebcbda5455690323d89eb254c30",
-      "value": 30687871.891779024,
-      "formattedValue": "30687871.891779024"
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": "31.91M",
+      "formattedValue": "31.91M"
     },
     {
       "rank": 10,
-      "username": "L9Lulu",
-      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 26739851.662358783,
-      "formattedValue": "26739851.662358783"
+      "username": "Akse_e",
+      "uuid": "5bfccebcbda5455690323d89eb254c30",
+      "value": "30.77M",
+      "formattedValue": "30.77M"
     },
     {
       "rank": 11,
-      "username": "Kjaer_",
-      "uuid": "4366f92b6723462c8b99b07c91edc502",
-      "value": 10024654.294999525,
-      "formattedValue": "10024654.294999525"
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": "26.74M",
+      "formattedValue": "26.74M"
     },
     {
       "rank": 12,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 4786877.535829933,
-      "formattedValue": "4786877.535829933"
+      "username": "Joeycakes45",
+      "uuid": "f5ae021b89174eca98c47561dab7147b",
+      "value": "2.20M",
+      "formattedValue": "2.20M"
     },
     {
       "rank": 13,
-      "username": "Joeycakes45",
-      "uuid": "f5ae021b89174eca98c47561dab7147b",
-      "value": 2204536.180499943,
-      "formattedValue": "2204536.180499943"
+      "username": "Kjaer_",
+      "uuid": "4366f92b6723462c8b99b07c91edc502",
+      "value": "10.02M",
+      "formattedValue": "10.02M"
     }
   ]
 }

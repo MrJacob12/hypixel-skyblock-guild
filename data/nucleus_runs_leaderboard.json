@@ -1,6 +1,6 @@
 {
   "category": "Nucleus Runs",
-  "lastUpdated": "2026-01-07 21:51:39",
+  "lastUpdated": "2026-01-07 22:07:13",
   "members": [
     {
       "rank": 1,
@@ -11,22 +11,22 @@
     },
     {
       "rank": 2,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 50,
+      "formattedValue": "50"
+    },
+    {
+      "rank": 3,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
       "value": 50,
       "formattedValue": "50"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 50,
-      "formattedValue": "50"
-    },
-    {
-      "rank": 4,
-      "username": "DKZeuss",
-      "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 50,
       "formattedValue": "50"
     },
