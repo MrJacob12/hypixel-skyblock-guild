@@ -1,215 +1,438 @@
-import requests, json, time, os, shutil, subprocess
-from typing import Optional, Dict, Any, List
+import requests
+import json
+import time
+import os
+import shutil
+import subprocess
+from typing import Optional, Dict, Any, List, Callable, Union
+from dataclasses import dataclass
+from abc import ABC, abstractmethod
 from dotenv import load_dotenv
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-load_dotenv() 
+load_dotenv()
 
-API_KEY = os.environ.get("API_KEY")
-GUILD_ID = "6898ed238ea8c97d1328bb2b"
-REQUEST_LIMIT = 60
-last_request_time = 0
-amount_requests_in_current_minute = 0
+def shorten_number(num: Union[int, float]) -> str:
+    suffixes = [
+        (1_000_000_000_000, 'T'),
+        (1_000_000_000, 'B'),
+        (1_000_000, 'M'),
+        (1_000, 'K'),
+    ]    
+    if abs(num) < 1000:
+        return str(int(num))
+        
+    for threshold, suffix in suffixes:
+        if abs(num) >= threshold:
+            
+            shortened_num = f"{num / threshold:.2f}"
+            return f"{shortened_num}{suffix}"
+    return str(int(num))
 
-def hypixel_api(url: str, params: Optional[Dict[str, Any]] = None) -> Optional[Dict[str, Any]]:
-    global last_request_time
-    global amount_requests_in_current_minute
+@dataclass
+class Config:
+    api_key: str = os.environ.get("API_KEY", "")
+    guild_id: str = "6898ed238ea8c97d1328bb2b"
+    request_limit: int = 60
+    repo_path: str = "/fern/apps/hypixel/hypixel-skyblock-guild"
+    game_mode: str = "ironman"
+    max_workers: int = 5
 
-    current_time = time.time()
-    if current_time - last_request_time > 60:
-        amount_requests_in_current_minute = 0
 
-    if amount_requests_in_current_minute >= REQUEST_LIMIT:
-        time_to_wait = 60 - (current_time - last_request_time)
-        if time_to_wait > 0:
-            print(f"Query limit availability. I'm waiting {time_to_wait:.2f}s...")
-            time.sleep(time_to_wait)
-            last_request_time = time.time()
-    try:
-        headers = {
-            "API-Key": f"{API_KEY}"
+class RateLimiter:
+    def __init__(self, limit: int = 60, time_window: int = 60):
+        self.limit = limit
+        self.time_window = time_window
+        self.requests = []
+    
+    def wait_if_needed(self) -> None:
+        current_time = time.time()
+        
+        self.requests = [t for t in self.requests if current_time - t < self.time_window]
+        
+        if len(self.requests) >= self.limit:
+            oldest_request = min(self.requests)
+            wait_time = self.time_window - (current_time - oldest_request)
+            if wait_time > 0:
+                print(f"Rate limit reached. Waiting {wait_time:.2f}s...")
+                time.sleep(wait_time)
+                self.requests = []
+        
+        self.requests.append(current_time)
+
+
+class APIClient:
+    def __init__(self, api_key: str, rate_limiter: RateLimiter):
+        self.api_key = api_key
+        self.rate_limiter = rate_limiter
+        self.session = requests.Session()
+        self.session.headers.update({"API-Key": api_key})
+    
+    def get(self, url: str, params: Optional[Dict[str, Any]] = None) -> Optional[Dict[str, Any]]:
+        """Wykonuje GET request z rate limiting"""
+        self.rate_limiter.wait_if_needed()
+        
+        try:
+            response = self.session.get(url, params=params, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('success', False):
+                    return data
+                else:
+                    cause = data.get('cause', 'Unknown cause')
+                    print(f"API error: {cause}")
+                    return None
+            else:
+                print(f"HTTP error {response.status_code}")
+                return None
+                
+        except Exception as e:
+            print(f"Request failed: {e}")
+            return None
+
+
+class UsernameCache:
+    def __init__(self):
+        self.cache: Dict[str, str] = {}
+    
+    def get_username(self, uuid: str) -> str:
+        if uuid in self.cache:
+            return self.cache[uuid]
+        
+        try:
+            response = requests.get(
+                f"https://playerdb.co/api/player/minecraft/{uuid}",
+                timeout=5
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('success'):
+                    username = data.get('data', {}).get('player', {}).get('username')
+                    if username:
+                        self.cache[uuid] = username
+                        return username
+        except Exception as e:
+            print(f"Failed to fetch username for {uuid}: {e}")
+        
+        fallback = uuid[:8]
+        self.cache[uuid] = fallback
+        return fallback
+
+
+@dataclass
+class LeaderboardEntry:
+    rank: int
+    username: str
+    uuid: str
+    value: Any
+    formatted_value: str
+
+
+class LeaderboardProcessor(ABC):
+    def __init__(self, username_cache: UsernameCache):
+        self.username_cache = username_cache
+    
+    @abstractmethod
+    def get_category_name(self) -> str:
+        pass
+    
+    @abstractmethod
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[Any]:
+        pass
+    
+    def format_value(self, value: Any) -> str:
+        return str(value)
+    
+    def process(self, active_profiles: List[Dict]) -> Dict:
+        members_data = []
+        
+        for item in active_profiles:
+            uuid = item.get('uuid')
+            profile_data = item.get('profile_data')
+            members = item.get('members', {})
+            
+            if not profile_data or not members or uuid not in members:
+                continue
+            
+            player_data = members[uuid]
+            value = self.extract_value(player_data, profile_data)
+            
+            if value is None:
+                continue
+            
+            username = self.username_cache.get_username(uuid)
+            print(f"Processing {username} ({self.get_category_name()}: {value})")
+            
+            members_data.append({
+                'uuid': uuid,
+                'username': username,
+                'value': value
+            })
+        
+        members_data.sort(key=lambda x: x['value'], reverse=True)
+        
+        leaderboard_members = []
+        for index, member in enumerate(members_data):
+            leaderboard_members.append({
+                'rank': index + 1,
+                'username': member['username'],
+                'uuid': member['uuid'],
+                'value': member['value'],
+                'formattedValue': shorten_number(member['value'])
+            })
+        
+        return {
+            'category': self.get_category_name(),
+            'lastUpdated': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            'members': leaderboard_members
         }
 
-        last_request_time = time.time()
 
-        response = requests.get(url, headers=headers, params=params)
-
-        if response.status_code == 200:
-            amount_requests_in_current_minute += 1
-
-            data = response.json()
-            if data.get('success', False):
-                return data
-            else:
-                cause = data.get('cause', 'Unknown cause.')
-                print(f"The API returned an error (success: false): {cause}")
-                return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+class SkyblockLevelProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Skyblock Level"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        leveling_exp = player_data.get('leveling', {}).get('experience')
+        if isinstance(leveling_exp, (int, float)):
+            return int(leveling_exp / 100)
         return None
 
-def get_username_from_uuid(uuid: str) -> str:
-    try:
-        response = requests.get(f"https://playerdb.co/api/player/minecraft/{uuid}", timeout=5)
-        if response.status_code == 200:
-            data = response.json()
-            if data.get('success') and data.get('data', {}).get('player', {}).get('username'):
-                return data['data']['player']['username']
-    except Exception as e:
-        print(f"Failed to fetch username for {uuid}: {e}")
-    
-    return uuid[:8]  # Fallback
 
-def process_skyblock_level_data(active_profiles: List[Dict]) -> Dict:
-    members_data = []
+class NucleusRunsProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Nucleus Runs"
     
-    for item in active_profiles:
-        uuid = item.get('uuid')
-        profile_data = item.get('profile_data')
-        members = item.get('members', {})
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        nucleus_runs = player_data.get('leveling', {}).get('completions', {}).get('NUCLEUS_RUNS')
+        if isinstance(nucleus_runs, (int, float)):
+            return int(nucleus_runs)
+        return None
+
+
+class SkillProcessor(LeaderboardProcessor):
+    def __init__(self, username_cache: UsernameCache, skill_name: str):
+        super().__init__(username_cache)
+        self.skill_name = skill_name
+    
+    def get_category_name(self) -> str:
+        return f"{self.skill_name.capitalize()} Skill"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[float]:
+        experience = player_data.get('player_data', {}).get('experience', {}).get(f'SKILL_{self.skill_name.upper()}')
+        if isinstance(experience, (int, float)):
+            return experience
+        return None
+
+
+class DataCollector:
+    def __init__(self, api_client: APIClient, config: Config):
+        self.api_client = api_client
+        self.config = config
+    
+    def get_guild_members(self) -> List[str]:
+        data = self.api_client.get(
+            "https://api.hypixel.net/v2/guild",
+            params={"id": self.config.guild_id}
+        )
         
-        if not profile_data or not members or uuid not in members:
-            continue
+        if not data:
+            raise Exception("Failed to fetch guild data")
         
-        player_data = members[uuid]
-        leveling_exp = player_data.get('leveling', {}).get('experience')
+        members = data.get("guild", {}).get("members", [])
+        return [m["uuid"] for m in members]
+    
+    def get_player_profiles(self, uuid: str) -> Optional[Dict]:
+        """Pobiera profile gracza"""
+        return self.api_client.get(
+            "https://api.hypixel.net/v2/skyblock/profiles",
+            params={"uuid": uuid}
+        )
+    
+    def collect_all_profiles(self, uuids: List[str]) -> List[Dict]:
+        players_data = []
         
-        if not isinstance(leveling_exp, (int, float)):
-            continue
+        with ThreadPoolExecutor(max_workers=self.config.max_workers) as executor:
+            future_to_uuid = {
+                executor.submit(self.get_player_profiles, uuid): uuid
+                for uuid in uuids
+            }
+            
+            for future in as_completed(future_to_uuid):
+                uuid = future_to_uuid[future]
+                try:
+                    data = future.result()
+                    players_data.append({"uuid": uuid, "data": data})
+                except Exception as e:
+                    print(f"Error fetching data for {uuid}: {e}")
+                    players_data.append({"uuid": uuid, "data": None})
         
-        skyblock_level = int(leveling_exp / 100)
+        return players_data
+
+
+class ProfileFilter:
+    @staticmethod
+    def filter_active_profiles(players_data: List[Dict], game_mode: str) -> List[Dict]:
+        active_profiles = []
         
-        username = get_username_from_uuid(uuid)
-        print(f"Processing {username} (Level: {skyblock_level})")
+        for player_entry in players_data:
+            player_uuid = player_entry['uuid']
+            data = player_entry['data']
+            
+            if not data or not data.get('success') or not data.get('profiles'):
+                active_profiles.append({
+                    'uuid': player_uuid,
+                    'profile_data': None,
+                    'members': {},
+                    'status': 'Error/No Data'
+                })
+                continue
+            
+            active_profile = None
+            for profile in data['profiles']:
+                if profile.get('selected') and profile.get('game_mode') == game_mode:
+                    active_profile = profile
+                    break
+            
+            if active_profile:
+                active_profiles.append({
+                    'uuid': player_uuid,
+                    'profile_id': active_profile.get('profile_id', 'Unknown'),
+                    'profile_data': active_profile,
+                    'members': active_profile.get('members', {}),
+                    'status': f'Found Active ({game_mode})'
+                })
+            else:
+                active_profiles.append({
+                    'uuid': player_uuid,
+                    'profile_data': None,
+                    'members': {},
+                    'status': f'No Active {game_mode} Profile'
+                })
         
-        members_data.append({
-            'uuid': uuid,
-            'username': username,
-            'level': skyblock_level
+        return active_profiles
+
+
+class FileManager:
+    def __init__(self, config: Config):
+        self.config = config
+    
+    def save_json(self, filename: str, data: Any) -> None:
+        """Zapisuje dane do pliku JSON"""
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"Saved: {filename}")
+    
+    def upload_to_git(self, files: List[str]) -> bool:
+        try:
+            repo_path = self.config.repo_path
+            data_dir = os.path.join(repo_path, "data")
+            os.makedirs(data_dir, exist_ok=True)
+            
+            for file in files:
+                if os.path.exists(file):
+                    shutil.copy(file, os.path.join(data_dir, file))
+            
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            
+            subprocess.run(["git", "-C", repo_path, "add", "."], check=True)
+            subprocess.run(
+                ["git", "-C", repo_path, "commit", "-m", f"Data Update - {timestamp}"],
+                check=True
+            )
+            subprocess.run(["git", "-C", repo_path, "push"], check=True)
+            
+            print("Files uploaded via Git")
+            return True
+            
+        except Exception as e:
+            print(f"Git upload failed: {e}")
+            return False
+
+
+class LeaderboardManager:
+    
+    def __init__(self, config: Config):
+        self.config = config
+        self.rate_limiter = RateLimiter(config.request_limit)
+        self.api_client = APIClient(config.api_key, self.rate_limiter)
+        self.username_cache = UsernameCache()
+        self.data_collector = DataCollector(self.api_client, config)
+        self.file_manager = FileManager(config)
+        
+        self.processors: List[LeaderboardProcessor] = [
+            SkyblockLevelProcessor(self.username_cache),
+            NucleusRunsProcessor(self.username_cache),
+            SkillProcessor(self.username_cache, 'combat'),
+            SkillProcessor(self.username_cache, 'farming'),
+            SkillProcessor(self.username_cache, 'fishing'),
+            SkillProcessor(self.username_cache, 'mining'),
+            SkillProcessor(self.username_cache, 'foraging'),
+            SkillProcessor(self.username_cache, 'enchanting'),
+            SkillProcessor(self.username_cache, 'alchemy'),
+            SkillProcessor(self.username_cache, 'carpentry'),
+            SkillProcessor(self.username_cache, 'taming'),
+        ]
+    
+    def run(self) -> None:
+        print("=== Starting Hypixel Leaderboard Update ===")
+        subprocess.run(["git", "-C", self.config.repo_path, "pull"], check=True)
+        print("\n[1/4] Fetching guild members...")
+        uuids = self.data_collector.get_guild_members()
+        print(f"Found {len(uuids)} members")
+        
+        print("\n[2/4] Collecting player profiles...")
+        players_data = self.data_collector.collect_all_profiles(uuids)
+        
+        print("\n[3/4] Filtering active profiles...")
+        active_profiles = ProfileFilter.filter_active_profiles(
+            players_data,
+            self.config.game_mode
+        )
+        
+        self.file_manager.save_json(
+            "active_ironman_profiles.json",
+            {
+                "data": active_profiles,
+                "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+        )
+        
+        print("\n[4/4] Generating leaderboards...")
+        leaderboards = {}
+        files_to_upload = ["active_ironman_profiles.json"]
+        
+        for processor in self.processors:
+            category = processor.get_category_name()
+            print(f"\nProcessing: {category}")
+            
+            leaderboard = processor.process(active_profiles)
+            leaderboards[category] = leaderboard
+            
+            filename = f"{category.lower().replace(' ', '_')}_leaderboard.json"
+            self.file_manager.save_json(filename, leaderboard)
+            files_to_upload.append(filename)
+        
+        all_leaderboards_file = "all_leaderboards.json"
+        self.file_manager.save_json(all_leaderboards_file, {
+            "leaderboards": leaderboards,
+            "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         })
-    
-    members_data.sort(key=lambda x: x['level'], reverse=True)
-    
-    leaderboard_members = []
-    for index, member in enumerate(members_data):
-        leaderboard_members.append({
-            'rank': index + 1,
-            'username': member['username'],
-            'uuid': member['uuid'],
-            'value': member['level'],
-            'formattedValue': str(member['level'])
-        })
-    
-    return {
-        'category': 'Skyblock Level',
-        'lastUpdated': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        'members': leaderboard_members
-    }
+        files_to_upload.append(all_leaderboards_file)
+        
+        print("\n=== Uploading to Git ===")
+        self.file_manager.upload_to_git(files_to_upload)
+        
+        print("\n=== Update Complete ===")
 
-params = {
-    "id": GUILD_ID
-}
 
-data = hypixel_api("https://api.hypixel.net/v2/guild", params)
-members = data["guild"]["members"]
-uuids = [m["uuid"] for m in members]
+def main():
+    config = Config()
+    manager = LeaderboardManager(config)
+    manager.run()
 
-players_data = []
 
-for uuid in uuids:
-    params = {
-        "uuid": uuid
-    }
-    players_data.append({
-        "uuid": uuid,
-        "data": hypixel_api("https://api.hypixel.net/v2/skyblock/profiles", params)
-    })
-
-game_mode = "ironman"
-active_profiles_per_player = []
-
-for player_entry in players_data:
-    player_uuid = player_entry['uuid']
-    data = player_entry['data']
-    last_active_ironman_profile = None
-
-    if not data or data.get('success') is not True or 'profiles' not in data or data['profiles'] is None:
-        print(f"Error: No data or profiles for UUID {player_uuid}.")
-        active_profiles_per_player.append({
-            'uuid': player_uuid,
-            'profile_data': None,
-            'status': 'Error/No Data'
-        })
-        continue
-
-    profiles = data['profiles']
-
-    for profile_data in profiles:
-        is_selected = profile_data.get('selected') is True
-        current_game_mode = profile_data.get('game_mode')
-
-        if is_selected and current_game_mode == game_mode:
-            last_active_ironman_profile = profile_data
-            break
-
-    if last_active_ironman_profile:
-        profile_id_from_data = last_active_ironman_profile.get('profile_id', 'Unknown ID')
-        profile_members = last_active_ironman_profile.get('members', {})
-
-        active_profiles_per_player.append({
-            'uuid': player_uuid,
-            'profile_id': profile_id_from_data,
-            'profile_data': last_active_ironman_profile,
-            'members': profile_members,
-            'status': f'Found Active ({game_mode})'
-        })
-    else:
-        active_profiles_per_player.append({
-            'uuid': player_uuid,
-            'profile_data': None,
-            'members': {},
-            'status': f'No Active {game_mode} Profile Found'
-        })
-
-skyblock_leaderboard = process_skyblock_level_data(active_profiles_per_player)
-
-REPO_PATH = "/fern/apps/hypixel/hypixel-skyblock-guild"
-
-FULL_DATA_FILE = "active_ironman_profiles.json"
-with open(FULL_DATA_FILE, 'w', encoding='utf-8') as f:
-    json.dump({
-        "data": active_profiles_per_player, 
-        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    }, f, indent=2, ensure_ascii=False)
-
-print(f"Full data saved: {len(active_profiles_per_player)} players to {FULL_DATA_FILE}")
-
-LEADERBOARD_FILE = "skyblock_level_leaderboard.json"
-with open(LEADERBOARD_FILE, 'w', encoding='utf-8') as f:
-    json.dump(skyblock_leaderboard, f, indent=2, ensure_ascii=False)
-
-print(f"Leaderboard saved: {len(skyblock_leaderboard['members'])} members to {LEADERBOARD_FILE}")
-
-def upload_via_git() -> bool:
-    data_dir = os.path.join(REPO_PATH, "data")
-    os.makedirs(data_dir, exist_ok=True)
-    
-    if os.path.exists(FULL_DATA_FILE):
-        shutil.copy(FULL_DATA_FILE, os.path.join(data_dir, FULL_DATA_FILE))
-    
-    if os.path.exists(LEADERBOARD_FILE):
-        shutil.copy(LEADERBOARD_FILE, os.path.join(data_dir, LEADERBOARD_FILE))
-    else:
-        print("No leaderboard file.")
-        return False
-
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    subprocess.run(["git", "-C", REPO_PATH, "add", "."], check=True)
-    subprocess.run(["git", "-C", REPO_PATH, "commit", "-m", f"Data Update - {timestamp}"], check=True)
-    subprocess.run(["git", "-C", REPO_PATH, "push"], check=True)
-
-    print("Files sent via SSH Deploy Key.")
-    return True
-
-upload_via_git()
+if __name__ == "__main__":
+    main()
