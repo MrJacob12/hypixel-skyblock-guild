@@ -75,7 +75,7 @@ const Index = () => {
           setTamingSkillData(data["leaderboards"]["Taming Skill"]);
           setMagicalPowerData(data["leaderboards"]["Magical Power"]);
 
-          // setCatacombsData(data["leaderboards"]["Catacombs"]);
+          setCatacombsData(data["leaderboards"]["Catacombs"]);
 
           setCatacombsArcherData(data["leaderboards"]["Catacomb Archer"]);
           setCatacombsBerserkerData(data["leaderboards"]["Catacomb Berserker"]);
