@@ -241,6 +241,116 @@ class AccessoryBagStorageProcessor(LeaderboardProcessor):
             return int(magical_power)
         return None
 
+class SlayerZombieProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Zombie"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_zombie = player_data.get('slayer', {}).get('slayer_bosses', {}).get('zombie', {}).get('xp')
+        if isinstance(slayer_zombie, (int, float)):
+            return int(slayer_zombie)
+        return None
+
+class SlayerSpiderProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Spider"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_spider = player_data.get('slayer', {}).get('slayer_bosses', {}).get('spider', {}).get('xp')
+        if isinstance(slayer_spider, (int, float)):
+            return int(slayer_spider)
+        return None
+
+class SlayerWolfProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Wolf"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_wolf = player_data.get('slayer', {}).get('slayer_bosses', {}).get('wolf', {}).get('xp')
+        if isinstance(slayer_wolf, (int, float)):
+            return int(slayer_wolf)
+        return None
+
+class SlayerEndermanProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Enderman"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_enderman = player_data.get('slayer', {}).get('slayer_bosses', {}).get('enderman', {}).get('xp')
+        if isinstance(slayer_enderman, (int, float)):
+            return int(slayer_enderman)
+        return None
+
+class SlayerVampireProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Vampire"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_vampire = player_data.get('slayer', {}).get('slayer_bosses', {}).get('vampire', {}).get('xp')
+        if isinstance(slayer_vampire, (int, float)):
+            return int(slayer_vampire)
+        return None
+
+class SlayerBlazeProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Slayer Blaze"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        slayer_blaze = player_data.get('slayer', {}).get('slayer_bosses', {}).get('blaze', {}).get('xp')
+        if isinstance(slayer_blaze, (int, float)):
+            return int(slayer_blaze)
+        return None
+
+class CatacombArcherProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacomb Archer"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacomb_archer = player_data.get('dungeons', {}).get('player_classes', {}).get('archer', {}).get('experience')
+        if isinstance(catacomb_archer, (int, float)):
+            return int(catacomb_archer)
+        return None
+
+class CatacombBerserkerProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacomb Berserker"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacomb_berserker = player_data.get('dungeons', {}).get('player_classes', {}).get('berserker', {}).get('experience')
+        if isinstance(catacomb_berserker, (int, float)):
+            return int(catacomb_berserker)
+        return None
+
+class CatacombHealerProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacomb Healer"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacomb_healer = player_data.get('dungeons', {}).get('player_classes', {}).get('healer', {}).get('experience')
+        if isinstance(catacomb_healer, (int, float)):
+            return int(catacomb_healer)
+        return None
+
+class CatacombMageProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacomb Mage"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacomb_mage = player_data.get('dungeons', {}).get('player_classes', {}).get('mage', {}).get('experience')
+        if isinstance(catacomb_mage, (int, float)):
+            return int(catacomb_mage)
+        return None
+
+class CatacombTankProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacomb Tank"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacomb_tank = player_data.get('dungeons', {}).get('player_classes', {}).get('tank', {}).get('experience')
+        if isinstance(catacomb_tank, (int, float)):
+            return int(catacomb_tank)
+        return None
+
 class DataCollector:
     def __init__(self, api_client: APIClient, config: Config):
         self.api_client = api_client
@@ -389,6 +499,17 @@ class LeaderboardManager:
             SkillProcessor(self.username_cache, 'carpentry'),
             SkillProcessor(self.username_cache, 'taming'),
             AccessoryBagStorageProcessor(self.username_cache),
+            SlayerZombieProcessor(self.username_cache),
+            SlayerSpiderProcessor(self.username_cache), 
+            SlayerWolfProcessor(self.username_cache),
+            SlayerEndermanProcessor(self.username_cache),
+            SlayerVampireProcessor(self.username_cache),
+            SlayerBlazeProcessor(self.username_cache),
+            CatacombArcherProcessor(self.username_cache),
+            CatacombBerserkerProcessor(self.username_cache),
+            CatacombHealerProcessor(self.username_cache),
+            CatacombMageProcessor(self.username_cache),
+            CatacombTankProcessor(self.username_cache),
         ]
     
     def run(self) -> None:
