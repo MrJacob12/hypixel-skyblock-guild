@@ -77,13 +77,11 @@ const Index = () => {
 
           // setCatacombsData(data["leaderboards"]["Catacombs"]);
 
-          setCatacombsArcherData(data["leaderboards"]["Catacombs Archer"]);
-          setCatacombsBerserkerData(
-            data["leaderboards"]["Catacombs Berserker"]
-          );
-          setCatacombsHealerData(data["leaderboards"]["Catacombs Healer"]);
-          setCatacombsMageData(data["leaderboards"]["Catacombs Mage"]);
-          setCatacombsTankData(data["leaderboards"]["Catacombs Tank"]);
+          setCatacombsArcherData(data["leaderboards"]["Catacomb Archer"]);
+          setCatacombsBerserkerData(data["leaderboards"]["Catacomb Berserker"]);
+          setCatacombsHealerData(data["leaderboards"]["Catacomb Healer"]);
+          setCatacombsMageData(data["leaderboards"]["Catacomb Mage"]);
+          setCatacombsTankData(data["leaderboards"]["Catacomb Tank"]);
           setSlayerZombieData(data["leaderboards"]["Slayer Zombie"]);
           setSlayerSpiderData(data["leaderboards"]["Slayer Spider"]);
           setSlayerWolfData(data["leaderboards"]["Slayer Wolf"]);
@@ -121,6 +119,44 @@ const Index = () => {
         return carpentrySkillData;
       case "taming":
         return tamingSkillData;
+      default:
+        return null;
+    }
+  };
+
+  const getCatacombsData = () => {
+    switch (selectedCatacombs) {
+      case "catacombs":
+        return catacombsData;
+      case "archer":
+        return catacombsArcherData;
+      case "berserker":
+        return catacombsBerserkerData;
+      case "healer":
+        return catacombsHealerData;
+      case "mage":
+        return catacombsMageData;
+      case "tank":
+        return catacombsTankData;
+      default:
+        return;
+    }
+  };
+
+  const getSleyerData = () => {
+    switch (selectedSlayer) {
+      case "zombie":
+        return slayerZombieData;
+      case "spider":
+        return slayerSpiderData;
+      case "wolf":
+        return slayerWolfData;
+      case "enderman":
+        return slayerEndermanData;
+      case "vampire":
+        return slayerVampireData;
+      case "blaze":
+        return slayerBlazeData;
       default:
         return null;
     }
@@ -372,10 +408,33 @@ const Index = () => {
                   </TabsTrigger>
                 </TabsList>
                 <div className="text-center py-8 text-muted-foreground">
-                  {`Catacombs (${
-                    selectedCatacombs.charAt(0).toUpperCase() +
-                    selectedCatacombs.slice(1)
-                  }) leaderboard coming soon!`}
+                  <TabsContent value={selectedCatacombs}>
+                    {[
+                      "catacombs",
+                      "archer",
+                      "berserker",
+                      "healer",
+                      "mage",
+                      "tank",
+                    ].map((role) => (
+                      <TabsContent key={role} value={role}>
+                        {isLoading ? (
+                          <div className="text-center py-8 text-muted-foreground">
+                            Loading{" "}
+                            {role.charAt(0).toUpperCase() + role.slice(1)}{" "}
+                            data...
+                          </div>
+                        ) : getCatacombsData() ? (
+                          <LeaderboardCard data={getCatacombsData()} />
+                        ) : (
+                          <div className="text-center py-8 text-muted-foreground">
+                            No {role.charAt(0).toUpperCase() + role.slice(1)}{" "}
+                            data available
+                          </div>
+                        )}
+                      </TabsContent>
+                    ))}
+                  </TabsContent>
                 </div>
               </Tabs>
             </div>
@@ -429,10 +488,30 @@ const Index = () => {
                   </TabsTrigger>
                 </TabsList>
                 <div className="text-center py-8 text-muted-foreground">
-                  {`Slayer (${
-                    selectedSlayer.charAt(0).toUpperCase() +
-                    selectedSlayer.slice(1)
-                  }) leaderboard coming soon!`}
+                  {[
+                    "zombie",
+                    "spider",
+                    "wolf",
+                    "enderman",
+                    "vampire",
+                    "blaze",
+                  ].map((type) => (
+                    <TabsContent key={type} value={type}>
+                      {isLoading ? (
+                        <div className="text-center py-8 text-muted-foreground">
+                          Loading {type.charAt(0).toUpperCase() + type.slice(1)}{" "}
+                          data...
+                        </div>
+                      ) : getSleyerData() ? (
+                        <LeaderboardCard data={getSleyerData()} />
+                      ) : (
+                        <div className="text-center py-8 text-muted-foreground">
+                          No {type.charAt(0).toUpperCase() + type.slice(1)} data
+                          available
+                        </div>
+                      )}
+                    </TabsContent>
+                  ))}
                 </div>
               </Tabs>
             </div>

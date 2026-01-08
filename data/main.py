@@ -301,6 +301,16 @@ class SlayerBlazeProcessor(LeaderboardProcessor):
             return int(slayer_blaze)
         return None
 
+class CatacombProcessor(LeaderboardProcessor):
+    def get_category_name(self) -> str:
+        return "Catacombs"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        catacombs_level = player_data.get('dungeons', {}).get('dungeon_types', {}).get('catacombs', {}).get('experience')
+        if isinstance(catacombs_level, (int, float)):
+            return int(catacombs_level)
+        return None
+
 class CatacombArcherProcessor(LeaderboardProcessor):
     def get_category_name(self) -> str:
         return "Catacomb Archer"
@@ -316,7 +326,7 @@ class CatacombBerserkerProcessor(LeaderboardProcessor):
         return "Catacomb Berserker"
     
     def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
-        catacomb_berserker = player_data.get('dungeons', {}).get('player_classes', {}).get('berserker', {}).get('experience')
+        catacomb_berserker = player_data.get('dungeons', {}).get('player_classes', {}).get('berserk', {}).get('experience')
         if isinstance(catacomb_berserker, (int, float)):
             return int(catacomb_berserker)
         return None
@@ -505,6 +515,7 @@ class LeaderboardManager:
             SlayerEndermanProcessor(self.username_cache),
             SlayerVampireProcessor(self.username_cache),
             SlayerBlazeProcessor(self.username_cache),
+            CatacombProcessor(self.username_cache),
             CatacombArcherProcessor(self.username_cache),
             CatacombBerserkerProcessor(self.username_cache),
             CatacombHealerProcessor(self.username_cache),
