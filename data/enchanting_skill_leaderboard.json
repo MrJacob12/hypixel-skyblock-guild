@@ -1,6 +1,6 @@
 {
   "category": "Enchanting Skill",
-  "lastUpdated": "2026-01-07 22:18:32",
+  "lastUpdated": "2026-01-08 16:28:47",
   "members": [
     {
       "rank": 1,
@@ -18,17 +18,17 @@
     },
     {
       "rank": 3,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 140856273.15332332,
+      "formattedValue": "140.86M"
+    },
+    {
+      "rank": 4,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
       "value": 139087563.01108527,
       "formattedValue": "139.09M"
-    },
-    {
-      "rank": 4,
-      "username": "xpectic",
-      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 135502756.72209534,
-      "formattedValue": "135.50M"
     },
     {
       "rank": 5,
@@ -69,7 +69,7 @@
       "rank": 10,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 24635640.097528517,
+      "value": 24639764.844076067,
       "formattedValue": "24.64M"
     },
     {
@@ -83,8 +83,8 @@
       "rank": 12,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 8968704.9347199,
-      "formattedValue": "8.97M"
+      "value": 11283013.6847199,
+      "formattedValue": "11.28M"
     },
     {
       "rank": 13,
