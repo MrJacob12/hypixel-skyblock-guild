@@ -227,6 +227,20 @@ class SkillProcessor(LeaderboardProcessor):
         return None
 
 
+class AccessoryBagStorageProcessor(LeaderboardProcessor):
+    def __init__(self, username_cache: UsernameCache):
+        super().__init__(username_cache)
+
+    def get_category_name(self) -> str:
+        return "Magical Power"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        accessory_bag = player_data.get('accessory_bag_storage', {})
+        magical_power = accessory_bag.get('highest_magical_power')
+        if isinstance(magical_power, (int, float)):
+            return int(magical_power)
+        return None
+
 class DataCollector:
     def __init__(self, api_client: APIClient, config: Config):
         self.api_client = api_client
@@ -374,6 +388,7 @@ class LeaderboardManager:
             SkillProcessor(self.username_cache, 'alchemy'),
             SkillProcessor(self.username_cache, 'carpentry'),
             SkillProcessor(self.username_cache, 'taming'),
+            AccessoryBagStorageProcessor(self.username_cache),
         ]
     
     def run(self) -> None:
