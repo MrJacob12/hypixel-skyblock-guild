@@ -1,0 +1,41 @@
+{
+  "category": "Slayer Vampire",
+  "lastUpdated": "2026-01-08 16:50:00",
+  "members": [
+    {
+      "rank": 1,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 1605,
+      "formattedValue": "1.60K"
+    },
+    {
+      "rank": 2,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 905,
+      "formattedValue": "905"
+    },
+    {
+      "rank": 3,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 115,
+      "formattedValue": "115"
+    },
+    {
+      "rank": 4,
+      "username": "SalutSavatte",
+      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+      "value": 20,
+      "formattedValue": "20"
+    },
+    {
+      "rank": 5,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 15,
+      "formattedValue": "15"
+    }
+  ]
+}
