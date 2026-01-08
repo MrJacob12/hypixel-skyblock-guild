@@ -1,0 +1,34 @@
+{
+  "category": "Slayer Blaze",
+  "lastUpdated": "2026-01-08 16:50:00",
+  "members": [
+    {
+      "rank": 1,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 45,
+      "formattedValue": "45"
+    },
+    {
+      "rank": 2,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 41,
+      "formattedValue": "41"
+    },
+    {
+      "rank": 3,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 32,
+      "formattedValue": "32"
+    },
+    {
+      "rank": 4,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 12,
+      "formattedValue": "12"
+    }
+  ]
+}
