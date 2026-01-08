@@ -1,34 +1,34 @@
 {
   "category": "Fishing Skill",
-  "lastUpdated": "2026-01-08 17:06:17",
+  "lastUpdated": "2026-01-08 22:49:18",
   "members": [
     {
       "rank": 1,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 30391999.460028965,
+      "formattedValue": "30.39M"
+    },
+    {
+      "rank": 2,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 28801163.85976057,
       "formattedValue": "28.80M"
     },
     {
-      "rank": 2,
-      "username": "L9Lulu",
-      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 28562963.91310906,
-      "formattedValue": "28.56M"
-    },
-    {
       "rank": 3,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 22658473.419384185,
-      "formattedValue": "22.66M"
+      "value": 24103186.2353768,
+      "formattedValue": "24.10M"
     },
     {
       "rank": 4,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 16459834.926757082,
-      "formattedValue": "16.46M"
+      "value": 17277968.518072017,
+      "formattedValue": "17.28M"
     },
     {
       "rank": 5,
@@ -83,8 +83,8 @@
       "rank": 12,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 207193.1950750004,
-      "formattedValue": "207.19K"
+      "value": 467417.66027500085,
+      "formattedValue": "467.42K"
     },
     {
       "rank": 13,
