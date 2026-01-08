@@ -61,6 +61,11 @@
 }
 
 @layer utilities {
+  .disable-blur{
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: pixelated;
+  }
+
   .gold-border {
     box-shadow: 0 0 20px hsl(var(--gold) / 0.4), inset 0 0 0 2px hsl(var(--gold));
   }
