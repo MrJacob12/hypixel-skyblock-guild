@@ -2,7 +2,7 @@
   "leaderboards": {
     "Skyblock Level": {
       "category": "Skyblock Level",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -113,19 +113,19 @@
     },
     "Nucleus Runs": {
       "category": "Nucleus Runs",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
-          "username": "DKZeuss",
-          "uuid": "00502e232682441fba354172e6fc9cef",
+          "username": "SalutSavatte",
+          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
           "value": 50,
           "formattedValue": "50"
         },
         {
           "rank": 2,
-          "username": "SalutSavatte",
-          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+          "username": "DKZeuss",
+          "uuid": "00502e232682441fba354172e6fc9cef",
           "value": 50,
           "formattedValue": "50"
         },
@@ -189,7 +189,7 @@
     },
     "Combat Skill": {
       "category": "Combat Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -286,7 +286,7 @@
     },
     "Farming Skill": {
       "category": "Farming Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -306,8 +306,8 @@
           "rank": 3,
           "username": "DKZeuss",
           "uuid": "00502e232682441fba354172e6fc9cef",
-          "value": 85231035.9505878,
-          "formattedValue": "85.23M"
+          "value": 85272623.36658892,
+          "formattedValue": "85.27M"
         },
         {
           "rank": 4,
@@ -383,7 +383,7 @@
     },
     "Fishing Skill": {
       "category": "Fishing Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -480,7 +480,7 @@
     },
     "Mining Skill": {
       "category": "Mining Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -577,7 +577,7 @@
     },
     "Foraging Skill": {
       "category": "Foraging Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -674,7 +674,7 @@
     },
     "Enchanting Skill": {
       "category": "Enchanting Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -771,7 +771,7 @@
     },
     "Alchemy Skill": {
       "category": "Alchemy Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -868,7 +868,7 @@
     },
     "Carpentry Skill": {
       "category": "Carpentry Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
@@ -965,14 +965,14 @@
     },
     "Taming Skill": {
       "category": "Taming Skill",
-      "lastUpdated": "2026-01-08 16:28:47",
+      "lastUpdated": "2026-01-08 16:31:05",
       "members": [
         {
           "rank": 1,
           "username": "DKZeuss",
           "uuid": "00502e232682441fba354172e6fc9cef",
-          "value": 233753090.28912696,
-          "formattedValue": "233.75M"
+          "value": 233769188.3619508,
+          "formattedValue": "233.77M"
         },
         {
           "rank": 2,
@@ -992,7 +992,7 @@
           "rank": 4,
           "username": "SoloShinda",
           "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-          "value": 125178574.59701814,
+          "value": 125179105.16052127,
           "formattedValue": "125.18M"
         },
         {
@@ -1059,7 +1059,118 @@
           "formattedValue": "8.52M"
         }
       ]
+    },
+    "Magical Power": {
+      "category": "Magical Power",
+      "lastUpdated": "2026-01-08 16:31:05",
+      "members": [
+        {
+          "rank": 1,
+          "username": "DKZeuss",
+          "uuid": "00502e232682441fba354172e6fc9cef",
+          "value": 849,
+          "formattedValue": "849"
+        },
+        {
+          "rank": 2,
+          "username": "CrazyDegen",
+          "uuid": "185aa48d293d4cdd9a842547ca23431b",
+          "value": 740,
+          "formattedValue": "740"
+        },
+        {
+          "rank": 3,
+          "username": "xpectic",
+          "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+          "value": 725,
+          "formattedValue": "725"
+        },
+        {
+          "rank": 4,
+          "username": "SoloShinda",
+          "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+          "value": 602,
+          "formattedValue": "602"
+        },
+        {
+          "rank": 5,
+          "username": "njouwastaken2",
+          "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+          "value": 580,
+          "formattedValue": "580"
+        },
+        {
+          "rank": 6,
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 552,
+          "formattedValue": "552"
+        },
+        {
+          "rank": 7,
+          "username": "SalutSavatte",
+          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+          "value": 530,
+          "formattedValue": "530"
+        },
+        {
+          "rank": 8,
+          "username": "L9Lulu",
+          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+          "value": 508,
+          "formattedValue": "508"
+        },
+        {
+          "rank": 9,
+          "username": "ArtOfRat",
+          "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+          "value": 484,
+          "formattedValue": "484"
+        },
+        {
+          "rank": 10,
+          "username": "Deki69",
+          "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+          "value": 483,
+          "formattedValue": "483"
+        },
+        {
+          "rank": 11,
+          "username": "Kjaer_",
+          "uuid": "4366f92b6723462c8b99b07c91edc502",
+          "value": 355,
+          "formattedValue": "355"
+        },
+        {
+          "rank": 12,
+          "username": "Merca_Mage",
+          "uuid": "e0d51ebe369842a4a078b011316427e6",
+          "value": 323,
+          "formattedValue": "323"
+        },
+        {
+          "rank": 13,
+          "username": "Smaaaam",
+          "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+          "value": 276,
+          "formattedValue": "276"
+        },
+        {
+          "rank": 14,
+          "username": "Joeycakes45",
+          "uuid": "f5ae021b89174eca98c47561dab7147b",
+          "value": 217,
+          "formattedValue": "217"
+        },
+        {
+          "rank": 15,
+          "username": "Shiniguy",
+          "uuid": "ce0a165ee10b45debb4953834d05f3cf",
+          "value": 198,
+          "formattedValue": "198"
+        }
+      ]
     }
   },
-  "lastUpdated": "2026-01-08 16:28:47"
+  "lastUpdated": "2026-01-08 16:31:05"
 }
