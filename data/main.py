@@ -552,6 +552,8 @@ class LeaderboardManager:
             CollectionProcessor(self.username_cache, 'POTATO_ITEM'),
             CollectionProcessor(self.username_cache, 'PUMPKIN'),
             CollectionProcessor(self.username_cache, 'RAW_CHICKEN'),
+            CollectionProcessor(self.username_cache, 'PORK'),
+            CollectionProcessor(self.username_cache, 'RABBIT'),
             CollectionProcessor(self.username_cache, 'SEEDS'),
             CollectionProcessor(self.username_cache, 'SUGAR_CANE'),
             CollectionProcessor(self.username_cache, 'WHEAT'),
