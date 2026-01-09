@@ -1,6 +1,6 @@
 {
   "category": "Slayer Enderman",
-  "lastUpdated": "2026-01-09 18:45:07",
+  "lastUpdated": "2026-01-09 19:29:26",
   "members": [
     {
       "rank": 1,
@@ -11,24 +11,24 @@
     },
     {
       "rank": 2,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 16253,
+      "formattedValue": "16.25K"
+    },
+    {
+      "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 15817,
       "formattedValue": "15.82K"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 14854,
       "formattedValue": "14.85K"
-    },
-    {
-      "rank": 4,
-      "username": "xpectic",
-      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 14753,
-      "formattedValue": "14.75K"
     },
     {
       "rank": 5,
