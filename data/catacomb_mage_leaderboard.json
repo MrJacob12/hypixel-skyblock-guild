@@ -1,13 +1,13 @@
 {
   "category": "Catacomb Mage",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 2719452,
-      "formattedValue": "2.72M"
+      "value": 2865858,
+      "formattedValue": "2.87M"
     },
     {
       "rank": 2,
@@ -60,48 +60,55 @@
     },
     {
       "rank": 9,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 232430,
+      "formattedValue": "232.43K"
+    },
+    {
+      "rank": 10,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 206874,
       "formattedValue": "206.87K"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 189971,
       "formattedValue": "189.97K"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 130947,
       "formattedValue": "130.95K"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 27856,
       "formattedValue": "27.86K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 13857,
       "formattedValue": "13.86K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 10523,
       "formattedValue": "10.52K"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 1625,

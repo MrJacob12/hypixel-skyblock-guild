@@ -1,13 +1,13 @@
 {
   "category": "Catacomb Healer",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 2069820,
-      "formattedValue": "2.07M"
+      "value": 2201534,
+      "formattedValue": "2.20M"
     },
     {
       "rank": 2,
@@ -60,41 +60,48 @@
     },
     {
       "rank": 9,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 222900,
+      "formattedValue": "222.90K"
+    },
+    {
+      "rank": 10,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 189055,
       "formattedValue": "189.06K"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 59765,
       "formattedValue": "59.77K"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 33848,
       "formattedValue": "33.85K"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 7282,
       "formattedValue": "7.28K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 1203,
       "formattedValue": "1.20K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 835,

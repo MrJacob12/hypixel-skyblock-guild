@@ -1,27 +1,27 @@
 {
   "category": "Carpentry Skill",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 65949831.39365625,
-      "formattedValue": "65.95M"
+      "value": 68652517.79240623,
+      "formattedValue": "68.65M"
     },
     {
       "rank": 2,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 49192284.15205698,
-      "formattedValue": "49.19M"
+      "value": 52442457.57205706,
+      "formattedValue": "52.44M"
     },
     {
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 44411967.13796228,
-      "formattedValue": "44.41M"
+      "value": 44479359.13796228,
+      "formattedValue": "44.48M"
     },
     {
       "rank": 4,
@@ -41,53 +41,60 @@
       "rank": 6,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 38373509.436749935,
-      "formattedValue": "38.37M"
+      "value": 39021502.23674996,
+      "formattedValue": "39.02M"
     },
     {
       "rank": 7,
-      "username": "Deki69",
-      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 30737240.712993126,
-      "formattedValue": "30.74M"
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 32646842.59927487,
+      "formattedValue": "32.65M"
     },
     {
       "rank": 8,
-      "username": "njouwastaken2",
-      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 29652105.91927487,
-      "formattedValue": "29.65M"
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 31108529.11095007,
+      "formattedValue": "31.11M"
     },
     {
       "rank": 9,
+      "username": "Deki69",
+      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+      "value": 30742856.712993126,
+      "formattedValue": "30.74M"
+    },
+    {
+      "rank": 10,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 20402975.888043784,
       "formattedValue": "20.40M"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 14391651.743891416,
       "formattedValue": "14.39M"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 4578380.522174996,
       "formattedValue": "4.58M"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 3768926.020031225,
-      "formattedValue": "3.77M"
+      "value": 3785735.995031225,
+      "formattedValue": "3.79M"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 593171.28,

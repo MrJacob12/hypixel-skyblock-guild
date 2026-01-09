@@ -1,13 +1,13 @@
 {
   "category": "Catacomb Berserker",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 13610799,
-      "formattedValue": "13.61M"
+      "value": 14190147,
+      "formattedValue": "14.19M"
     },
     {
       "rank": 2,
@@ -81,27 +81,34 @@
     },
     {
       "rank": 12,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 231951,
+      "formattedValue": "231.95K"
+    },
+    {
+      "rank": 13,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 107670,
       "formattedValue": "107.67K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 107369,
       "formattedValue": "107.37K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 42730,
       "formattedValue": "42.73K"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 3565,

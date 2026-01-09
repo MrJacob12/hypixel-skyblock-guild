@@ -1,6 +1,6 @@
 {
   "category": "Fishing Skill",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "rank": 3,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 24103186.2353768,
-      "formattedValue": "24.10M"
+      "value": 24414335.060288448,
+      "formattedValue": "24.41M"
     },
     {
       "rank": 4,
@@ -46,48 +46,55 @@
     },
     {
       "rank": 7,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 7419179.929700006,
+      "formattedValue": "7.42M"
+    },
+    {
+      "rank": 8,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 2609862.0157998186,
       "formattedValue": "2.61M"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
       "value": 2310764.0175999966,
       "formattedValue": "2.31M"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 1980623.0753249873,
       "formattedValue": "1.98M"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 1439490.016310006,
       "formattedValue": "1.44M"
     },
     {
-      "rank": 11,
+      "rank": 12,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 617365.9228750005,
+      "formattedValue": "617.37K"
+    },
+    {
+      "rank": 13,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 482725.67000000074,
       "formattedValue": "482.73K"
     },
     {
-      "rank": 12,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 467417.66027500085,
-      "formattedValue": "467.42K"
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 200879.8250000001,

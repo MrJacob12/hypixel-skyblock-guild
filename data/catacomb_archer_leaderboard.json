@@ -1,6 +1,6 @@
 {
   "category": "Catacomb Archer",
-  "lastUpdated": "2026-01-08 22:49:18",
+  "lastUpdated": "2026-01-09 18:37:42",
   "members": [
     {
       "rank": 1,
@@ -13,8 +13,8 @@
       "rank": 2,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 3297355,
-      "formattedValue": "3.30M"
+      "value": 3446900,
+      "formattedValue": "3.45M"
     },
     {
       "rank": 3,
@@ -81,27 +81,34 @@
     },
     {
       "rank": 12,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 94615,
+      "formattedValue": "94.61K"
+    },
+    {
+      "rank": 13,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 13967,
       "formattedValue": "13.97K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 13253,
       "formattedValue": "13.25K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 7475,
       "formattedValue": "7.47K"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 58,
