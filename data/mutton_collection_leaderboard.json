@@ -1,5 +1,97 @@
 {
   "category": "Mutton Collection",
-  "lastUpdated": "2026-01-09 18:37:42",
-  "members": []
+  "lastUpdated": "2026-01-09 18:45:07",
+  "members": [
+    {
+      "rank": 1,
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 1526674,
+      "formattedValue": "1.53M"
+    },
+    {
+      "rank": 2,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 761009,
+      "formattedValue": "761.01K"
+    },
+    {
+      "rank": 3,
+      "username": "Joeycakes45",
+      "uuid": "f5ae021b89174eca98c47561dab7147b",
+      "value": 201217,
+      "formattedValue": "201.22K"
+    },
+    {
+      "rank": 4,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 150237,
+      "formattedValue": "150.24K"
+    },
+    {
+      "rank": 5,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 37078,
+      "formattedValue": "37.08K"
+    },
+    {
+      "rank": 6,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 31598,
+      "formattedValue": "31.60K"
+    },
+    {
+      "rank": 7,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 10128,
+      "formattedValue": "10.13K"
+    },
+    {
+      "rank": 8,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 5587,
+      "formattedValue": "5.59K"
+    },
+    {
+      "rank": 9,
+      "username": "SalutSavatte",
+      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+      "value": 4596,
+      "formattedValue": "4.60K"
+    },
+    {
+      "rank": 10,
+      "username": "Akse_e",
+      "uuid": "5bfccebcbda5455690323d89eb254c30",
+      "value": 2307,
+      "formattedValue": "2.31K"
+    },
+    {
+      "rank": 11,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 172,
+      "formattedValue": "172"
+    },
+    {
+      "rank": 12,
+      "username": "Deki69",
+      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+      "value": 131,
+      "formattedValue": "131"
+    },
+    {
+      "rank": 13,
+      "username": "Kjaer_",
+      "uuid": "4366f92b6723462c8b99b07c91edc502",
+      "value": 4,
+      "formattedValue": "4"
+    }
+  ]
 }

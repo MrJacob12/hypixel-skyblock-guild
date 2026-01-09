@@ -1,5 +1,104 @@
 {
   "category": "Carrot_item Collection",
-  "lastUpdated": "2026-01-09 18:37:42",
-  "members": []
+  "lastUpdated": "2026-01-09 18:45:07",
+  "members": [
+    {
+      "rank": 1,
+      "username": "Kjaer_",
+      "uuid": "4366f92b6723462c8b99b07c91edc502",
+      "value": 20788147,
+      "formattedValue": "20.79M"
+    },
+    {
+      "rank": 2,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 12189733,
+      "formattedValue": "12.19M"
+    },
+    {
+      "rank": 3,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 9541943,
+      "formattedValue": "9.54M"
+    },
+    {
+      "rank": 4,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 9153899,
+      "formattedValue": "9.15M"
+    },
+    {
+      "rank": 5,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 6831125,
+      "formattedValue": "6.83M"
+    },
+    {
+      "rank": 6,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 3146305,
+      "formattedValue": "3.15M"
+    },
+    {
+      "rank": 7,
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 2889441,
+      "formattedValue": "2.89M"
+    },
+    {
+      "rank": 8,
+      "username": "Akse_e",
+      "uuid": "5bfccebcbda5455690323d89eb254c30",
+      "value": 1504079,
+      "formattedValue": "1.50M"
+    },
+    {
+      "rank": 9,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 951350,
+      "formattedValue": "951.35K"
+    },
+    {
+      "rank": 10,
+      "username": "SalutSavatte",
+      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+      "value": 886487,
+      "formattedValue": "886.49K"
+    },
+    {
+      "rank": 11,
+      "username": "Deki69",
+      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+      "value": 692865,
+      "formattedValue": "692.87K"
+    },
+    {
+      "rank": 12,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 688990,
+      "formattedValue": "688.99K"
+    },
+    {
+      "rank": 13,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 444269,
+      "formattedValue": "444.27K"
+    },
+    {
+      "rank": 14,
+      "username": "Joeycakes45",
+      "uuid": "f5ae021b89174eca98c47561dab7147b",
+      "value": 274504,
+      "formattedValue": "274.50K"
+    }
+  ]
 }

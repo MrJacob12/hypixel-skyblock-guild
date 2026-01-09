@@ -1,5 +1,104 @@
 {
   "category": "Raw_chicken Collection",
-  "lastUpdated": "2026-01-09 18:37:42",
-  "members": []
+  "lastUpdated": "2026-01-09 18:45:07",
+  "members": [
+    {
+      "rank": 1,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 1704362,
+      "formattedValue": "1.70M"
+    },
+    {
+      "rank": 2,
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 401720,
+      "formattedValue": "401.72K"
+    },
+    {
+      "rank": 3,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 397337,
+      "formattedValue": "397.34K"
+    },
+    {
+      "rank": 4,
+      "username": "SalutSavatte",
+      "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+      "value": 383652,
+      "formattedValue": "383.65K"
+    },
+    {
+      "rank": 5,
+      "username": "uhcinna",
+      "uuid": "9781ef6891394b02abd3f5fb377f85e9",
+      "value": 292306,
+      "formattedValue": "292.31K"
+    },
+    {
+      "rank": 6,
+      "username": "Joeycakes45",
+      "uuid": "f5ae021b89174eca98c47561dab7147b",
+      "value": 207023,
+      "formattedValue": "207.02K"
+    },
+    {
+      "rank": 7,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 200216,
+      "formattedValue": "200.22K"
+    },
+    {
+      "rank": 8,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 148608,
+      "formattedValue": "148.61K"
+    },
+    {
+      "rank": 9,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 89121,
+      "formattedValue": "89.12K"
+    },
+    {
+      "rank": 10,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 81060,
+      "formattedValue": "81.06K"
+    },
+    {
+      "rank": 11,
+      "username": "Deki69",
+      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+      "value": 53683,
+      "formattedValue": "53.68K"
+    },
+    {
+      "rank": 12,
+      "username": "Kjaer_",
+      "uuid": "4366f92b6723462c8b99b07c91edc502",
+      "value": 40882,
+      "formattedValue": "40.88K"
+    },
+    {
+      "rank": 13,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 23152,
+      "formattedValue": "23.15K"
+    },
+    {
+      "rank": 14,
+      "username": "Akse_e",
+      "uuid": "5bfccebcbda5455690323d89eb254c30",
+      "value": 14367,
+      "formattedValue": "14.37K"
+    }
+  ]
 }
