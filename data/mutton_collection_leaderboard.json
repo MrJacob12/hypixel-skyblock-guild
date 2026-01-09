@@ -1,6 +1,6 @@
 {
   "category": "Mutton Collection",
-  "lastUpdated": "2026-01-09 19:39:56",
+  "lastUpdated": "2026-01-09 19:50:58",
   "members": [
     {
       "rank": 1,
@@ -46,17 +46,17 @@
     },
     {
       "rank": 7,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 15828,
+      "formattedValue": "15.83K"
+    },
+    {
+      "rank": 8,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 10128,
       "formattedValue": "10.13K"
-    },
-    {
-      "rank": 8,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 5587,
-      "formattedValue": "5.59K"
     },
     {
       "rank": 9,
