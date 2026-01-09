@@ -236,7 +236,7 @@ class CollectionProcessor(LeaderboardProcessor):
         return f"{self.collection_name.capitalize()} Collection"
     
     def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
-        collections = player_data.get('collections', {})
+        collections = player_data.get('collection', {})
         collection_data = collections.get(self.collection_name, int)
         if isinstance(collection_data, (int, float)):
             return int(collection_data)
@@ -469,7 +469,8 @@ class FileManager:
         self.config = config
     
     def save_json(self, filename: str, data: Any) -> None:
-        """Zapisuje dane do pliku JSON"""
+        if ":" in filename:
+            filename = filename.replace(":", "_")
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         print(f"Saved: {filename}")
