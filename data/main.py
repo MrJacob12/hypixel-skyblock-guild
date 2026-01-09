@@ -558,7 +558,6 @@ class LeaderboardManager:
             CollectionProcessor(self.username_cache, 'SEEDS'),
             CollectionProcessor(self.username_cache, 'SUGAR_CANE'),
             CollectionProcessor(self.username_cache, 'WHEAT'),
-            CollectionProcessor(self.username_cache, 'WHEAT'),
             CollectionProcessor(self.username_cache, 'DOUBLE_PLANT'),
             CollectionProcessor(self.username_cache, 'WILD_ROSE'),
             CollectionProcessor(self.username_cache, 'MOONFLOWER'),

@@ -46,6 +46,11 @@ const Index = () => {
   const [slayerVampireData, setSlayerVampireData] = useState(null);
   const [slayerBlazeData, setSlayerBlazeData] = useState(null);
 
+  const [leaderboardData, setLeaderboardData] = useState<Record<
+    string,
+    LeaderboardData
+  > | null>(null);
+
   // For testing purposes
   useEffect(() => {
     fetch(
@@ -71,6 +76,9 @@ const Index = () => {
       )
         .then((r) => r.json())
         .then((data: Record<string, LeaderboardData>) => {
+          console.log("Leaderboard Data:", data);
+          setLeaderboardData(data);
+
           setLevelData(data["leaderboards"]["Skyblock Level"]);
           setNucleusRunsData(data["leaderboards"]["Nucleus Runs"]);
           setCombatSkillData(data["leaderboards"]["Combat Skill"]);
@@ -122,117 +130,123 @@ const Index = () => {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-10">
-        <Tabs defaultValue="skyblock-level" className="w-full">
-          <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
-            <TabsTrigger value="skyblock-level">
-              <img
-                src="https://sky.shiiyu.moe/api/head/2e2cc42015e6678f8fd49ccc01fbf787f1ba2c32bcf559a015332fc5db50"
-                className="w-6"
-              />
-              Skyblock Level
-            </TabsTrigger>
-            <TabsTrigger value="networth" disabled>
-              <span className="text-foreground text-amber-500">℻</span>Net Worth
-            </TabsTrigger>
-            <TabsTrigger value="skills">
-              <img
-                src="https://sky.shiiyu.moe/api/item/IRON_PICKAXE"
-                className="w-6 disable-blur"
-              />
-              Skills
-            </TabsTrigger>
-            <TabsTrigger value="catacombs">
-              <img
-                src="https://sky.shiiyu.moe/api/head/964e1c3e315c8d8fffc37985b6681c5bd16a6f97ffd07199e8a05efbef103793"
-                className="w-6 disable-blur"
-              />
-              Catacombs
-            </TabsTrigger>
-            <TabsTrigger value="slayers">
-              <img
-                src="https://sky.shiiyu.moe/api/item/BLAZE_ROD"
-                className="w-6 disable-blur"
-              />
-              Slayers
-            </TabsTrigger>
-            <TabsTrigger value="magical-power">
-              <img
-                src="https://wiki.hypixel.net/images/3/3a/SkyBlock_items_learn_new_power_green.png"
-                className="w-6 disable-blur"
-              />
-              Magical Power
-            </TabsTrigger>
-            <TabsTrigger value="collections">
-              <img
-                src="https://wiki.hypixel.net/images/0/01/Minecraft_items_painting.png"
-                className="w-6 disable-blur"
-              />
-              Collections
-            </TabsTrigger>
-            <TabsTrigger value="nucleus-runs">
-              <img
-                src="https://sky.shiiyu.moe/assets/resourcepacks/FurfSky/assets/cittofirmgenerated/textures/item/divan_alloy.png"
-                className="w-6 disable-blur"
-              />
-              Nucleus Runs
-            </TabsTrigger>
-          </TabsList>
+        <div className="text-center py-8 text-muted-foreground">
+          <Tabs defaultValue="skyblock-level" className="w-full">
+            <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
+              <TabsTrigger value="skyblock-level">
+                <img
+                  src="https://sky.shiiyu.moe/api/head/2e2cc42015e6678f8fd49ccc01fbf787f1ba2c32bcf559a015332fc5db50"
+                  className="w-6"
+                />
+                Skyblock Level
+              </TabsTrigger>
+              <TabsTrigger value="networth" disabled>
+                <span className="text-foreground text-amber-500">℻</span>Net
+                Worth
+              </TabsTrigger>
+              <TabsTrigger value="skills">
+                <img
+                  src="https://sky.shiiyu.moe/api/item/IRON_PICKAXE"
+                  className="w-6 disable-blur"
+                />
+                Skills
+              </TabsTrigger>
+              <TabsTrigger value="catacombs">
+                <img
+                  src="https://sky.shiiyu.moe/api/head/964e1c3e315c8d8fffc37985b6681c5bd16a6f97ffd07199e8a05efbef103793"
+                  className="w-6 disable-blur"
+                />
+                Catacombs
+              </TabsTrigger>
+              <TabsTrigger value="slayers">
+                <img
+                  src="https://sky.shiiyu.moe/api/item/BLAZE_ROD"
+                  className="w-6 disable-blur"
+                />
+                Slayers
+              </TabsTrigger>
+              <TabsTrigger value="magical-power">
+                <img
+                  src="https://wiki.hypixel.net/images/3/3a/SkyBlock_items_learn_new_power_green.png"
+                  className="w-6 disable-blur"
+                />
+                Magical Power
+              </TabsTrigger>
+              <TabsTrigger value="collections">
+                <img
+                  src="https://wiki.hypixel.net/images/0/01/Minecraft_items_painting.png"
+                  className="w-6 disable-blur"
+                />
+                Collections
+              </TabsTrigger>
+              <TabsTrigger value="nucleus-runs">
+                <img
+                  src="https://sky.shiiyu.moe/assets/resourcepacks/FurfSky/assets/cittofirmgenerated/textures/item/divan_alloy.png"
+                  className="w-6 disable-blur"
+                />
+                Nucleus Runs
+              </TabsTrigger>
+            </TabsList>
 
-          <SkyblockLevel isLoading={isLoading} levelData={levelData} />
+            <SkyblockLevel isLoading={isLoading} levelData={levelData} />
 
-          <NucleusRuns
-            isLoading={isLoading}
-            nucleusRunsData={nucleusRunsData}
-          />
+            <NucleusRuns
+              isLoading={isLoading}
+              nucleusRunsData={nucleusRunsData}
+            />
 
-          <Skills
-            selectedSkill={selectedSkill}
-            setSelectedSkill={setSelectedSkill}
-            isLoading={isLoading}
-            combatSkillData={combatSkillData}
-            farmingSkillData={farmingSkillData}
-            fishingSkillData={fishingSkillData}
-            miningSkillData={miningSkillData}
-            foragingSkillData={foragingSkillData}
-            enchantingSkillData={enchantingSkillData}
-            alchemySkillData={alchemySkillData}
-            carpentrySkillData={carpentrySkillData}
-            tamingSkillData={tamingSkillData}
-          />
+            <Skills
+              selectedSkill={selectedSkill}
+              setSelectedSkill={setSelectedSkill}
+              isLoading={isLoading}
+              combatSkillData={combatSkillData}
+              farmingSkillData={farmingSkillData}
+              fishingSkillData={fishingSkillData}
+              miningSkillData={miningSkillData}
+              foragingSkillData={foragingSkillData}
+              enchantingSkillData={enchantingSkillData}
+              alchemySkillData={alchemySkillData}
+              carpentrySkillData={carpentrySkillData}
+              tamingSkillData={tamingSkillData}
+            />
 
-          <Networth />
+            <Networth />
 
-          <Catacombs
-            selectedCatacombs={selectedCatacombs}
-            setSelectedCatacombs={setSelectedCatacombs}
-            isLoading={isLoading}
-            catacombsData={catacombsData}
-            catacombsArcherData={catacombsArcherData}
-            catacombsBerserkerData={catacombsBerserkerData}
-            catacombsHealerData={catacombsHealerData}
-            catacombsMageData={catacombsMageData}
-            catacombsTankData={catacombsTankData}
-          />
+            <Catacombs
+              selectedCatacombs={selectedCatacombs}
+              setSelectedCatacombs={setSelectedCatacombs}
+              isLoading={isLoading}
+              catacombsData={catacombsData}
+              catacombsArcherData={catacombsArcherData}
+              catacombsBerserkerData={catacombsBerserkerData}
+              catacombsHealerData={catacombsHealerData}
+              catacombsMageData={catacombsMageData}
+              catacombsTankData={catacombsTankData}
+            />
 
-          <Slayer
-            isLoading={isLoading}
-            selectedSlayer={selectedSlayer}
-            setSelectedSlayer={setSelectedSlayer}
-            slayerZombieData={slayerZombieData}
-            slayerSpiderData={slayerSpiderData}
-            slayerWolfData={slayerWolfData}
-            slayerEndermanData={slayerEndermanData}
-            slayerVampireData={slayerVampireData}
-            slayerBlazeData={slayerBlazeData}
-          />
+            <Slayer
+              isLoading={isLoading}
+              selectedSlayer={selectedSlayer}
+              setSelectedSlayer={setSelectedSlayer}
+              slayerZombieData={slayerZombieData}
+              slayerSpiderData={slayerSpiderData}
+              slayerWolfData={slayerWolfData}
+              slayerEndermanData={slayerEndermanData}
+              slayerVampireData={slayerVampireData}
+              slayerBlazeData={slayerBlazeData}
+            />
 
-          <MagicalPower
-            isLoading={isLoading}
-            magicalPowerData={magicalPowerData}
-          />
+            <MagicalPower
+              isLoading={isLoading}
+              magicalPowerData={magicalPowerData}
+            />
 
-          <Collections isLoading={isLoading} />
-        </Tabs>
+            <Collections
+              isLoading={isLoading}
+              leaderboardData={leaderboardData}
+            />
+          </Tabs>
+        </div>
       </main>
 
       {/* Footer */}

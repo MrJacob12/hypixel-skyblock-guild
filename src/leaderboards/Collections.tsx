@@ -5,8 +5,15 @@ import LeaderboardCard from "@/components/LeaderboardCard";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import Farming from "@/leaderboards/Collections/Farming";
 import Mining from "@/leaderboards/Collections/Mining";
+import { LeaderboardData } from "@/types/leaderboard";
 
-const Collections = ({ isLoading }) => {
+const Collections = ({
+  isLoading,
+  leaderboardData,
+}: {
+  isLoading: boolean;
+  leaderboardData: Record<string, LeaderboardData> | null | null;
+}) => {
   const [selectedCollections, setSelectedCollections] =
     React.useState("farming");
 
@@ -97,7 +104,7 @@ const Collections = ({ isLoading }) => {
           </TabsList>
 
           <TabsContent value="farming">
-            <Farming />
+            <Farming leaderboardData={leaderboardData} isLoading={isLoading} />
           </TabsContent>
 
           <TabsContent value="mining">
