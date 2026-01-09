@@ -467,14 +467,15 @@ class ProfileFilter:
 class FileManager:
     def __init__(self, config: Config):
         self.config = config
-    
+
     def save_json(self, filename: str, data: Any) -> None:
-        if ":" in filename:
-            filename = filename.replace(":", "_")
-        with open(filename, 'w', encoding='utf-8') as f:
+        directory, name = os.path.split(filename)
+        name = name.replace(":", "_")
+        safe_path = os.path.join(directory, name)
+        with open(safe_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"Saved: {filename}")
-    
+        print(f"Saved: {safe_path}")
+
     def upload_to_git(self, files: List[str]) -> bool:
         try:
             repo_path = self.config.repo_path
