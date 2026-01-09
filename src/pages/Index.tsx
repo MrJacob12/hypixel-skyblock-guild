@@ -10,6 +10,7 @@ import Networth from "@/leaderboards/Networth";
 import Catacombs from "@/leaderboards/Catacombs";
 import Slayer from "@/leaderboards/Slayer";
 import MagicalPower from "@/leaderboards/MagicalPower";
+import Collections from "@/leaderboards/Collections";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -116,15 +117,6 @@ const Index = () => {
             Guild Leaderboards
           </h1>
           <p className="text-sm text-muted-foreground mt-1">Hypixel Skyblock</p>
-          <div className="flex p-2">
-            <a>
-              <img
-                src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e3d7f4ef6498ac018f2c55_Symbol.svg"
-                alt="Discord logo"
-                className="w-6 m-2 hover:opacity-80 cursor-pointer"
-              />
-            </a>
-          </div>
         </div>
       </header>
 
@@ -170,11 +162,7 @@ const Index = () => {
               />
               Magical Power
             </TabsTrigger>
-            <TabsTrigger
-              value="collections"
-              disabled
-              className="opacity-50 cursor-not-allowed"
-            >
+            <TabsTrigger value="collections">
               <img
                 src="https://wiki.hypixel.net/images/0/01/Minecraft_items_painting.png"
                 className="w-6 disable-blur"
@@ -242,6 +230,8 @@ const Index = () => {
             isLoading={isLoading}
             magicalPowerData={magicalPowerData}
           />
+
+          <Collections isLoading={isLoading} />
         </Tabs>
       </main>
 
