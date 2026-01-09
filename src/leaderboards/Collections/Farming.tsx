@@ -7,6 +7,8 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 // Cactus, Carrot, Cocoa Beans, Feather, Leather, Melon, Mushroom, Mutton, Nether Wart, Potato, Pumpkin, Chicken, Porkchop, Rabbit, Seeds, Sugar Cane, Wheat
 
 const Farming = () => {
+  const getFarmingCollectionName = (key: string) => {};
+
   return (
     <div className="py-4">
       <TabsContent value="farming" className="animate-fade-in">
@@ -15,7 +17,7 @@ const Farming = () => {
             <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
               <TabsTrigger value="cactus">
                 <img
-                  src="https://static.wikia.nocookie.net/hypixel-skyblock/images/a/a6/Cactus.png/revision/latest?cb=20210615211709"
+                  src="https://wiki.hypixel.net/images/6/60/Minecraft_items_cactus.png"
                   className="w-8 disable-blur"
                 />
                 Cactus
@@ -131,6 +133,29 @@ const Farming = () => {
                   className="w-8 disable-blur"
                 />
                 Wheat
+              </TabsTrigger>
+              <TabsTrigger value="sunflower">
+                <img
+                  src="https://wiki.hypixel.net/images/2/2e/Minecraft_items_sunflower.png"
+                  className="w-8 disable-blur"
+                />
+                Sunflower
+              </TabsTrigger>
+
+              <TabsTrigger value="wild_rose">
+                <img
+                  src="https://static.wikia.nocookie.net/hypixel-skyblock/images/0/02/Rose_Bush.png"
+                  className="w-8 disable-blur"
+                />
+                Wild Rose
+              </TabsTrigger>
+
+              <TabsTrigger value="moonflower">
+                <img
+                  src="https://static.wikia.nocookie.net/hypixel-skyblock/images/6/6b/Blue_Orchid.png"
+                  className="w-8 disable-blur"
+                />
+                Moonflower
               </TabsTrigger>
             </TabsList>
             <span>Leaderboard Coming Soon!</span>

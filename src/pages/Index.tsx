@@ -55,7 +55,7 @@ const Index = () => {
       .then((data) => {
         console.log(
           "Active Ironman Profiles:",
-          data["data"][0]["members"][data["data"][0]["uuid"]]
+          data["data"][13]["members"][data["data"][13]["uuid"]]
         );
       })
       .catch((error) => {

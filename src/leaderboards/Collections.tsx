@@ -28,44 +28,68 @@ const Collections = ({ isLoading }) => {
               />
               Farming
             </TabsTrigger>
-            <TabsTrigger value="mining">
+            <TabsTrigger
+              value="mining"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_PICKAXE"
                 className="w-8 disable-blur"
               />
               Mining
             </TabsTrigger>
-            <TabsTrigger value="combat">
+            <TabsTrigger
+              value="combat"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_SWORD"
                 className="w-8 disable-blur"
               />
               Combat
             </TabsTrigger>
-            <TabsTrigger value="foraging">
+            <TabsTrigger
+              value="foraging"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_AXE"
                 className="w-8 disable-blur"
               />
               Foraging
             </TabsTrigger>
-            <TabsTrigger value="fishing">
+            <TabsTrigger
+              value="fishing"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
                 src="https://sky.shiiyu.moe/api/item/FISHING_ROD"
                 className="w-8 disable-blur"
               />
               Fishing
             </TabsTrigger>
-            <TabsTrigger value="bosses">
+            <TabsTrigger
+              value="bosses"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
-                src="https://static.wikia.nocookie.net/hypixel-skyblock/images/a/ac/Wither_Skeleton_Skull.png/revision/latest?cb=20210615215549"
+                src="https://wiki.hypixel.net/images/d/d9/Minecraft_items_wither_skeleton_skull.png"
                 className="w-8 disable-blur"
               />
               Bosses
             </TabsTrigger>
-            <TabsTrigger value="rift">
+            <TabsTrigger
+              value="rift"
+              className="opacity-50 cursor-not-allowed"
+              disabled
+            >
               <img
-                src="https://static.wikia.nocookie.net/hypixel-skyblock/images/c/c7/Enchanted_Mycelium.png/revision/latest?cb=20220311013305"
+                src="https://wiki.hypixel.net/images/8/8d/SkyBlock_items_enchanted_mycelium.gif"
                 className="w-8 disable-blur"
               />
               Rift

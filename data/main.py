@@ -227,6 +227,21 @@ class SkillProcessor(LeaderboardProcessor):
         return None
 
 
+class CollectionProcessor(LeaderboardProcessor):
+    def __init__(self, username_cache: UsernameCache, collection_name: str):
+        super().__init__(username_cache)
+        self.collection_name = collection_name
+    
+    def get_category_name(self) -> str:
+        return f"{self.collection_name.capitalize()} Collection"
+    
+    def extract_value(self, player_data: Dict, profile_data: Dict) -> Optional[int]:
+        collections = player_data.get('collections', {})
+        collection_data = collections.get(self.collection_name, int)
+        if isinstance(collection_data, (int, float)):
+            return int(collection_data)
+        return None
+
 class AccessoryBagStorageProcessor(LeaderboardProcessor):
     def __init__(self, username_cache: UsernameCache):
         super().__init__(username_cache)
@@ -521,6 +536,29 @@ class LeaderboardManager:
             CatacombHealerProcessor(self.username_cache),
             CatacombMageProcessor(self.username_cache),
             CatacombTankProcessor(self.username_cache),
+            
+            # Collection 
+            # Farming
+            CollectionProcessor(self.username_cache, 'CACTUS'),
+            CollectionProcessor(self.username_cache, 'CARROT_ITEM'),
+            CollectionProcessor(self.username_cache, 'INK_SACK:3'),
+            CollectionProcessor(self.username_cache, 'FEATHER'),
+            CollectionProcessor(self.username_cache, 'LEATHER'),
+            CollectionProcessor(self.username_cache, 'MELON'),
+            CollectionProcessor(self.username_cache, 'MUSHROOM_COLLECTION'),
+            CollectionProcessor(self.username_cache, 'MUTTON'),
+            CollectionProcessor(self.username_cache, 'NETHER_STALK'),
+            CollectionProcessor(self.username_cache, 'POTATO_ITEM'),
+            CollectionProcessor(self.username_cache, 'PUMPKIN'),
+            CollectionProcessor(self.username_cache, 'RAW_CHICKEN'),
+            CollectionProcessor(self.username_cache, 'SEEDS'),
+            CollectionProcessor(self.username_cache, 'SUGAR_CANE'),
+            CollectionProcessor(self.username_cache, 'WHEAT'),
+            CollectionProcessor(self.username_cache, 'WHEAT'),
+            CollectionProcessor(self.username_cache, 'DOUBLE_PLANT'),
+            CollectionProcessor(self.username_cache, 'WILD_ROSE'),
+            CollectionProcessor(self.username_cache, 'MOONFLOWER'),
+            
         ]
     
     def run(self) -> None:
