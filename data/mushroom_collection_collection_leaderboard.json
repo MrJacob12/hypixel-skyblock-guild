@@ -1,6 +1,6 @@
 {
   "category": "Mushroom_collection Collection",
-  "lastUpdated": "2026-01-10 21:00:14",
+  "lastUpdated": "2026-01-11 00:00:15",
   "members": [
     {
       "rank": 1,
@@ -11,24 +11,24 @@
     },
     {
       "rank": 2,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 10073042,
+      "formattedValue": "10.07M"
+    },
+    {
+      "rank": 3,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 10015869,
       "formattedValue": "10.02M"
     },
     {
-      "rank": 3,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 9862962,
-      "formattedValue": "9.86M"
-    },
-    {
       "rank": 4,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 8337727,
-      "formattedValue": "8.34M"
+      "value": 8351265,
+      "formattedValue": "8.35M"
     },
     {
       "rank": 5,
@@ -41,7 +41,7 @@
       "rank": 6,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 3777347,
+      "value": 3783747,
       "formattedValue": "3.78M"
     },
     {
@@ -69,8 +69,8 @@
       "rank": 10,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 317459,
-      "formattedValue": "317.46K"
+      "value": 333685,
+      "formattedValue": "333.69K"
     },
     {
       "rank": 11,
