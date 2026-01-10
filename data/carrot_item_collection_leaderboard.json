@@ -1,6 +1,6 @@
 {
   "category": "Carrot_item Collection",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
@@ -20,22 +20,22 @@
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 9541943,
-      "formattedValue": "9.54M"
+      "value": 9634503,
+      "formattedValue": "9.63M"
     },
     {
       "rank": 4,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 9268459,
-      "formattedValue": "9.27M"
+      "value": 9619339,
+      "formattedValue": "9.62M"
     },
     {
       "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 6831125,
-      "formattedValue": "6.83M"
+      "value": 7530645,
+      "formattedValue": "7.53M"
     },
     {
       "rank": 6,
@@ -62,8 +62,8 @@
       "rank": 9,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 951350,
-      "formattedValue": "951.35K"
+      "value": 966550,
+      "formattedValue": "966.55K"
     },
     {
       "rank": 10,
@@ -74,17 +74,17 @@
     },
     {
       "rank": 11,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 698910,
+      "formattedValue": "698.91K"
+    },
+    {
+      "rank": 12,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
       "value": 692865,
       "formattedValue": "692.87K"
-    },
-    {
-      "rank": 12,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 688990,
-      "formattedValue": "688.99K"
     },
     {
       "rank": 13,

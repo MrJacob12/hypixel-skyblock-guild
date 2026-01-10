@@ -1,6 +1,6 @@
 {
   "category": "Wheat Collection",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
@@ -20,15 +20,15 @@
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 5843170,
-      "formattedValue": "5.84M"
+      "value": 5859010,
+      "formattedValue": "5.86M"
     },
     {
       "rank": 4,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 4822554,
-      "formattedValue": "4.82M"
+      "value": 4965114,
+      "formattedValue": "4.97M"
     },
     {
       "rank": 5,
@@ -39,17 +39,17 @@
     },
     {
       "rank": 6,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 3799271,
-      "formattedValue": "3.80M"
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 4078175,
+      "formattedValue": "4.08M"
     },
     {
       "rank": 7,
-      "username": "xpectic",
-      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 3721671,
-      "formattedValue": "3.72M"
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 3986631,
+      "formattedValue": "3.99M"
     },
     {
       "rank": 8,
@@ -76,8 +76,8 @@
       "rank": 11,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 446289,
-      "formattedValue": "446.29K"
+      "value": 449059,
+      "formattedValue": "449.06K"
     },
     {
       "rank": 12,

@@ -1,41 +1,41 @@
 {
   "category": "Combat Skill",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
-      "username": "DKZeuss",
-      "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 65255101.714149825,
-      "formattedValue": "65.26M"
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 66884294.18566986,
+      "formattedValue": "66.88M"
     },
     {
       "rank": 2,
-      "username": "xpectic",
-      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 64714548.596106574,
-      "formattedValue": "64.71M"
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 65324042.88114984,
+      "formattedValue": "65.32M"
     },
     {
       "rank": 3,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 58593565.52758851,
+      "value": 58593593.60758849,
       "formattedValue": "58.59M"
     },
     {
       "rank": 4,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 48501611.69003205,
-      "formattedValue": "48.50M"
+      "value": 48607897.81478218,
+      "formattedValue": "48.61M"
     },
     {
       "rank": 5,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 44477610.44975903,
-      "formattedValue": "44.48M"
+      "value": 45830203.19840388,
+      "formattedValue": "45.83M"
     },
     {
       "rank": 6,
@@ -46,17 +46,17 @@
     },
     {
       "rank": 7,
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 38124655.63777261,
+      "formattedValue": "38.12M"
+    },
+    {
+      "rank": 8,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 37974884.45863826,
       "formattedValue": "37.97M"
-    },
-    {
-      "rank": 8,
-      "username": "SoloShinda",
-      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 37773393.73327229,
-      "formattedValue": "37.77M"
     },
     {
       "rank": 9,
@@ -90,8 +90,8 @@
       "rank": 13,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 5490757.736829939,
-      "formattedValue": "5.49M"
+      "value": 5548538.312829968,
+      "formattedValue": "5.55M"
     },
     {
       "rank": 14,

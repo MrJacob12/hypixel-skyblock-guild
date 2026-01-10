@@ -1,6 +1,6 @@
 {
   "category": "Fishing Skill",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
@@ -13,15 +13,15 @@
       "rank": 2,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 28801163.85976057,
-      "formattedValue": "28.80M"
+      "value": 28825210.41001057,
+      "formattedValue": "28.83M"
     },
     {
       "rank": 3,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 24414335.060288448,
-      "formattedValue": "24.41M"
+      "value": 25772415.57849838,
+      "formattedValue": "25.77M"
     },
     {
       "rank": 4,
@@ -34,7 +34,7 @@
       "rank": 5,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 10102297.113107309,
+      "value": 10104421.470407309,
       "formattedValue": "10.10M"
     },
     {
@@ -83,8 +83,8 @@
       "rank": 12,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 617365.9228750005,
-      "formattedValue": "617.37K"
+      "value": 651167.7196750006,
+      "formattedValue": "651.17K"
     },
     {
       "rank": 13,

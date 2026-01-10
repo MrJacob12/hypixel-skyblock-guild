@@ -1,13 +1,13 @@
 {
   "category": "Catacombs",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 22421896,
-      "formattedValue": "22.42M"
+      "value": 25275530,
+      "formattedValue": "25.28M"
     },
     {
       "rank": 2,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 6797552,
-      "formattedValue": "6.80M"
+      "value": 7137128,
+      "formattedValue": "7.14M"
     },
     {
       "rank": 6,
@@ -46,17 +46,17 @@
     },
     {
       "rank": 7,
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 4204317,
+      "formattedValue": "4.20M"
+    },
+    {
+      "rank": 8,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
       "value": 4112404,
       "formattedValue": "4.11M"
-    },
-    {
-      "rank": 8,
-      "username": "SoloShinda",
-      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 4095329,
-      "formattedValue": "4.10M"
     },
     {
       "rank": 9,

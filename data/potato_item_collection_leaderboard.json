@@ -1,6 +1,6 @@
 {
   "category": "Potato_item Collection",
-  "lastUpdated": "2026-01-09 19:50:58",
+  "lastUpdated": "2026-01-10 10:35:00",
   "members": [
     {
       "rank": 1,
@@ -11,45 +11,45 @@
     },
     {
       "rank": 2,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 22917811,
+      "formattedValue": "22.92M"
+    },
+    {
+      "rank": 3,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 20732500,
       "formattedValue": "20.73M"
     },
     {
-      "rank": 3,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 20373651,
-      "formattedValue": "20.37M"
-    },
-    {
       "rank": 4,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 12900219,
-      "formattedValue": "12.90M"
+      "value": 13719801,
+      "formattedValue": "13.72M"
     },
     {
       "rank": 5,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 9365049,
+      "value": 9366334,
       "formattedValue": "9.37M"
     },
     {
       "rank": 6,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 7426530,
-      "formattedValue": "7.43M"
+      "value": 7777730,
+      "formattedValue": "7.78M"
     },
     {
       "rank": 7,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 5417053,
-      "formattedValue": "5.42M"
+      "value": 7154645,
+      "formattedValue": "7.15M"
     },
     {
       "rank": 8,
@@ -90,8 +90,8 @@
       "rank": 13,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 782430,
-      "formattedValue": "782.43K"
+      "value": 791870,
+      "formattedValue": "791.87K"
     },
     {
       "rank": 14,
