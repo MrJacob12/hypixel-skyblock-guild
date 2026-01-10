@@ -1,6 +1,6 @@
 {
   "category": "Farming Skill",
-  "lastUpdated": "2026-01-10 15:00:15",
+  "lastUpdated": "2026-01-10 18:00:15",
   "members": [
     {
       "rank": 1,
@@ -13,29 +13,29 @@
       "rank": 2,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 141000154.6503128,
-      "formattedValue": "141.00M"
+      "value": 144239671.7175995,
+      "formattedValue": "144.24M"
     },
     {
       "rank": 3,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 97065897.97906251,
+      "formattedValue": "97.07M"
+    },
+    {
+      "rank": 4,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 95387909.12583843,
       "formattedValue": "95.39M"
     },
     {
-      "rank": 4,
-      "username": "DKZeuss",
-      "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 94407556.02190614,
-      "formattedValue": "94.41M"
-    },
-    {
       "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 83650424.45743373,
-      "formattedValue": "83.65M"
+      "value": 84597414.58550753,
+      "formattedValue": "84.60M"
     },
     {
       "rank": 6,
@@ -83,8 +83,8 @@
       "rank": 12,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 9354624.063425843,
-      "formattedValue": "9.35M"
+      "value": 9355166.290925847,
+      "formattedValue": "9.36M"
     },
     {
       "rank": 13,
