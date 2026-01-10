@@ -1,12 +1,12 @@
 {
   "category": "Feather Collection",
-  "lastUpdated": "2026-01-10 12:00:15",
+  "lastUpdated": "2026-01-10 15:00:15",
   "members": [
     {
       "rank": 1,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 1722888,
+      "value": 1722889,
       "formattedValue": "1.72M"
     },
     {
@@ -60,17 +60,17 @@
     },
     {
       "rank": 9,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 122720,
+      "formattedValue": "122.72K"
+    },
+    {
+      "rank": 10,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 91030,
       "formattedValue": "91.03K"
-    },
-    {
-      "rank": 10,
-      "username": "ArtOfRat",
-      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 86665,
-      "formattedValue": "86.67K"
     },
     {
       "rank": 11,

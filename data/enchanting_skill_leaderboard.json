@@ -1,6 +1,6 @@
 {
   "category": "Enchanting Skill",
-  "lastUpdated": "2026-01-10 12:00:15",
+  "lastUpdated": "2026-01-10 15:00:15",
   "members": [
     {
       "rank": 1,
@@ -13,8 +13,8 @@
       "rank": 2,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 149690352.05337253,
-      "formattedValue": "149.69M"
+      "value": 149704745.16277727,
+      "formattedValue": "149.70M"
     },
     {
       "rank": 3,
@@ -81,17 +81,17 @@
     },
     {
       "rank": 12,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 15908220.586697707,
+      "formattedValue": "15.91M"
+    },
+    {
+      "rank": 13,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 13045467.841198772,
       "formattedValue": "13.05M"
-    },
-    {
-      "rank": 13,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 11319188.086697707,
-      "formattedValue": "11.32M"
     },
     {
       "rank": 14,

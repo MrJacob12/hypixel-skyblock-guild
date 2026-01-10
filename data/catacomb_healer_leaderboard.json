@@ -1,6 +1,6 @@
 {
   "category": "Catacomb Healer",
-  "lastUpdated": "2026-01-10 12:00:15",
+  "lastUpdated": "2026-01-10 15:00:15",
   "members": [
     {
       "rank": 1,
@@ -11,17 +11,17 @@
     },
     {
       "rank": 2,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 1288558,
+      "formattedValue": "1.29M"
+    },
+    {
+      "rank": 3,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
       "value": 1282274,
       "formattedValue": "1.28M"
-    },
-    {
-      "rank": 3,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 1269925,
-      "formattedValue": "1.27M"
     },
     {
       "rank": 4,

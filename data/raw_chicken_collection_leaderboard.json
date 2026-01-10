@@ -1,6 +1,6 @@
 {
   "category": "Raw_chicken Collection",
-  "lastUpdated": "2026-01-10 12:00:15",
+  "lastUpdated": "2026-01-10 15:00:15",
   "members": [
     {
       "rank": 1,
@@ -60,17 +60,17 @@
     },
     {
       "rank": 9,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 91515,
+      "formattedValue": "91.52K"
+    },
+    {
+      "rank": 10,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 89121,
       "formattedValue": "89.12K"
-    },
-    {
-      "rank": 10,
-      "username": "ArtOfRat",
-      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 81060,
-      "formattedValue": "81.06K"
     },
     {
       "rank": 11,
