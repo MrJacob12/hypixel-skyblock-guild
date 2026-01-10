@@ -1,27 +1,27 @@
 {
   "category": "Carpentry Skill",
-  "lastUpdated": "2026-01-10 18:00:15",
+  "lastUpdated": "2026-01-10 21:00:14",
   "members": [
     {
       "rank": 1,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 80705608.43615623,
-      "formattedValue": "80.71M"
+      "value": 82062255.90365623,
+      "formattedValue": "82.06M"
     },
     {
       "rank": 2,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 52700011.13455709,
-      "formattedValue": "52.70M"
+      "value": 54908620.13455713,
+      "formattedValue": "54.91M"
     },
     {
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 44992458.83546228,
-      "formattedValue": "44.99M"
+      "value": 45003690.83546228,
+      "formattedValue": "45.00M"
     },
     {
       "rank": 4,
@@ -48,22 +48,22 @@
       "rank": 7,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 33037492.568399876,
-      "formattedValue": "33.04M"
+      "value": 34747239.30839989,
+      "formattedValue": "34.75M"
     },
     {
       "rank": 8,
+      "username": "Deki69",
+      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+      "value": 33672894.58674313,
+      "formattedValue": "33.67M"
+    },
+    {
+      "rank": 9,
       "username": "uhcinna",
       "uuid": "9781ef6891394b02abd3f5fb377f85e9",
       "value": 31108529.11095007,
       "formattedValue": "31.11M"
-    },
-    {
-      "rank": 9,
-      "username": "Deki69",
-      "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 30742974.736743126,
-      "formattedValue": "30.74M"
     },
     {
       "rank": 10,
@@ -83,7 +83,7 @@
       "rank": 12,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 4645053.410924994,
+      "value": 4645090.850924995,
       "formattedValue": "4.65M"
     },
     {
