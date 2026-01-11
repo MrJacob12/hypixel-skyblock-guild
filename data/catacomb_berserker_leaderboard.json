@@ -1,13 +1,13 @@
 {
   "category": "Catacomb Berserker",
-  "lastUpdated": "2026-01-11 15:00:14",
+  "lastUpdated": "2026-01-11 18:00:15",
   "members": [
     {
       "rank": 1,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 16502445,
-      "formattedValue": "16.50M"
+      "value": 16817146,
+      "formattedValue": "16.82M"
     },
     {
       "rank": 2,
@@ -46,16 +46,16 @@
     },
     {
       "rank": 7,
-      "username": "ArtOfRat",
-      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 1719427,
-      "formattedValue": "1.72M"
+      "username": "SoloShinda",
+      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+      "value": 1755306,
+      "formattedValue": "1.76M"
     },
     {
       "rank": 8,
-      "username": "SoloShinda",
-      "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 1716118,
+      "username": "ArtOfRat",
+      "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+      "value": 1719427,
       "formattedValue": "1.72M"
     },
     {
