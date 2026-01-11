@@ -1,30 +1,37 @@
 {
   "category": "Slayer Blaze",
-  "lastUpdated": "2026-01-11 21:00:15",
+  "lastUpdated": "2026-01-12 00:00:15",
   "members": [
     {
       "rank": 1,
+      "username": "xpectic",
+      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
+      "value": 251,
+      "formattedValue": "251"
+    },
+    {
+      "rank": 2,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 114,
+      "formattedValue": "114"
+    },
+    {
+      "rank": 3,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 45,
       "formattedValue": "45"
     },
     {
-      "rank": 2,
-      "username": "xpectic",
-      "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 41,
-      "formattedValue": "41"
-    },
-    {
-      "rank": 3,
+      "rank": 4,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
       "value": 32,
       "formattedValue": "32"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 12,

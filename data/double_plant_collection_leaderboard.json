@@ -1,20 +1,20 @@
 {
   "category": "Double_plant Collection",
-  "lastUpdated": "2026-01-11 21:00:15",
+  "lastUpdated": "2026-01-12 00:00:15",
   "members": [
     {
       "rank": 1,
+      "username": "L9Lulu",
+      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+      "value": 12403026,
+      "formattedValue": "12.40M"
+    },
+    {
+      "rank": 2,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 10900512,
       "formattedValue": "10.90M"
-    },
-    {
-      "rank": 2,
-      "username": "L9Lulu",
-      "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 10393590,
-      "formattedValue": "10.39M"
     },
     {
       "rank": 3,

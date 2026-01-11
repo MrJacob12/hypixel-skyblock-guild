@@ -1,6 +1,6 @@
 {
   "category": "Wild_rose Collection",
-  "lastUpdated": "2026-01-11 21:00:15",
+  "lastUpdated": "2026-01-12 00:00:15",
   "members": [
     {
       "rank": 1,
@@ -13,15 +13,15 @@
       "rank": 2,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 3828292,
-      "formattedValue": "3.83M"
+      "value": 3932772,
+      "formattedValue": "3.93M"
     },
     {
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 2779116,
-      "formattedValue": "2.78M"
+      "value": 3619886,
+      "formattedValue": "3.62M"
     },
     {
       "rank": 4,
@@ -48,8 +48,8 @@
       "rank": 7,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-      "value": 40000,
-      "formattedValue": "40.00K"
+      "value": 45120,
+      "formattedValue": "45.12K"
     }
   ]
 }
