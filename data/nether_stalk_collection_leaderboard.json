@@ -1,6 +1,6 @@
 {
   "category": "Nether_stalk Collection",
-  "lastUpdated": "2026-01-11 18:16:17",
+  "lastUpdated": "2026-01-11 21:00:15",
   "members": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "rank": 3,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 24120203,
-      "formattedValue": "24.12M"
+      "value": 24340523,
+      "formattedValue": "24.34M"
     },
     {
       "rank": 4,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 10971710,
-      "formattedValue": "10.97M"
+      "value": 11088670,
+      "formattedValue": "11.09M"
     },
     {
       "rank": 6,
@@ -67,17 +67,17 @@
     },
     {
       "rank": 10,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 253388,
+      "formattedValue": "253.39K"
+    },
+    {
+      "rank": 11,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
       "value": 225634,
       "formattedValue": "225.63K"
-    },
-    {
-      "rank": 11,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 219468,
-      "formattedValue": "219.47K"
     },
     {
       "rank": 12,
@@ -90,8 +90,8 @@
       "rank": 13,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 83414,
-      "formattedValue": "83.41K"
+      "value": 88534,
+      "formattedValue": "88.53K"
     },
     {
       "rank": 14,

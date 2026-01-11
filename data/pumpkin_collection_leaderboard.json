@@ -1,6 +1,6 @@
 {
   "category": "Pumpkin Collection",
-  "lastUpdated": "2026-01-11 18:16:17",
+  "lastUpdated": "2026-01-11 21:00:15",
   "members": [
     {
       "rank": 1,
@@ -13,8 +13,8 @@
       "rank": 2,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 7206708,
-      "formattedValue": "7.21M"
+      "value": 7220148,
+      "formattedValue": "7.22M"
     },
     {
       "rank": 3,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 3733589,
-      "formattedValue": "3.73M"
+      "value": 3795669,
+      "formattedValue": "3.80M"
     },
     {
       "rank": 6,
@@ -53,24 +53,24 @@
     },
     {
       "rank": 8,
+      "username": "Akse_e",
+      "uuid": "5bfccebcbda5455690323d89eb254c30",
+      "value": 561996,
+      "formattedValue": "562.00K"
+    },
+    {
+      "rank": 9,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
       "value": 529876,
       "formattedValue": "529.88K"
     },
     {
-      "rank": 9,
-      "username": "Akse_e",
-      "uuid": "5bfccebcbda5455690323d89eb254c30",
-      "value": 355217,
-      "formattedValue": "355.22K"
-    },
-    {
       "rank": 10,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 284203,
-      "formattedValue": "284.20K"
+      "value": 292523,
+      "formattedValue": "292.52K"
     },
     {
       "rank": 11,
@@ -90,8 +90,8 @@
       "rank": 13,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 63524,
-      "formattedValue": "63.52K"
+      "value": 65284,
+      "formattedValue": "65.28K"
     },
     {
       "rank": 14,

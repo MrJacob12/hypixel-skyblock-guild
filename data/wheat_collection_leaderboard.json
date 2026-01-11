@@ -1,6 +1,6 @@
 {
   "category": "Wheat Collection",
-  "lastUpdated": "2026-01-11 18:16:17",
+  "lastUpdated": "2026-01-11 21:00:15",
   "members": [
     {
       "rank": 1,
@@ -20,15 +20,15 @@
       "rank": 3,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 6772023,
-      "formattedValue": "6.77M"
+      "value": 6809109,
+      "formattedValue": "6.81M"
     },
     {
       "rank": 4,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 5028314,
-      "formattedValue": "5.03M"
+      "value": 5068634,
+      "formattedValue": "5.07M"
     },
     {
       "rank": 5,
@@ -48,8 +48,8 @@
       "rank": 7,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 4081375,
-      "formattedValue": "4.08M"
+      "value": 4086843,
+      "formattedValue": "4.09M"
     },
     {
       "rank": 8,
@@ -67,24 +67,24 @@
     },
     {
       "rank": 10,
+      "username": "Smaaaam",
+      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
+      "value": 874585,
+      "formattedValue": "874.59K"
+    },
+    {
+      "rank": 11,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 712338,
       "formattedValue": "712.34K"
     },
     {
-      "rank": 11,
-      "username": "Smaaaam",
-      "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 634724,
-      "formattedValue": "634.72K"
-    },
-    {
       "rank": 12,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-      "value": 245951,
-      "formattedValue": "245.95K"
+      "value": 249311,
+      "formattedValue": "249.31K"
     },
     {
       "rank": 13,

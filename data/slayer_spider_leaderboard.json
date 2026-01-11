@@ -1,6 +1,6 @@
 {
   "category": "Slayer Spider",
-  "lastUpdated": "2026-01-11 18:16:17",
+  "lastUpdated": "2026-01-11 21:00:15",
   "members": [
     {
       "rank": 1,
@@ -20,29 +20,29 @@
       "rank": 3,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 112897,
-      "formattedValue": "112.90K"
+      "value": 116647,
+      "formattedValue": "116.65K"
     },
     {
       "rank": 4,
+      "username": "CrazyDegen",
+      "uuid": "185aa48d293d4cdd9a842547ca23431b",
+      "value": 105653,
+      "formattedValue": "105.65K"
+    },
+    {
+      "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
       "value": 104505,
       "formattedValue": "104.50K"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 68043,
       "formattedValue": "68.04K"
-    },
-    {
-      "rank": 6,
-      "username": "CrazyDegen",
-      "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 53778,
-      "formattedValue": "53.78K"
     },
     {
       "rank": 7,
