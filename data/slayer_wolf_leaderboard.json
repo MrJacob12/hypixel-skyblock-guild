@@ -1,6 +1,6 @@
 {
   "category": "Slayer Wolf",
-  "lastUpdated": "2026-01-11 00:00:15",
+  "lastUpdated": "2026-01-11 03:00:15",
   "members": [
     {
       "rank": 1,
@@ -25,17 +25,17 @@
     },
     {
       "rank": 4,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 275105,
+      "formattedValue": "275.11K"
+    },
+    {
+      "rank": 5,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 269586,
       "formattedValue": "269.59K"
-    },
-    {
-      "rank": 5,
-      "username": "njouwastaken2",
-      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 263105,
-      "formattedValue": "263.11K"
     },
     {
       "rank": 6,
