@@ -1,6 +1,6 @@
 {
   "category": "Seeds Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -76,8 +76,8 @@
       "rank": 11,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 748854,
-      "formattedValue": "748.85K"
+      "value": 796771,
+      "formattedValue": "796.77K"
     },
     {
       "rank": 12,
@@ -99,6 +99,13 @@
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 197562,
       "formattedValue": "197.56K"
+    },
+    {
+      "rank": 15,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 6475,
+      "formattedValue": "6.47K"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "Sugar_cane Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 8400497,
-      "formattedValue": "8.40M"
+      "value": 8446897,
+      "formattedValue": "8.45M"
     },
     {
       "rank": 6,
@@ -95,6 +95,13 @@
     },
     {
       "rank": 14,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 9615,
+      "formattedValue": "9.62K"
+    },
+    {
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 2456,

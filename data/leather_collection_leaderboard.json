@@ -1,6 +1,6 @@
 {
   "category": "Leather Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -88,13 +88,20 @@
     },
     {
       "rank": 13,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 21776,
+      "formattedValue": "21.78K"
+    },
+    {
+      "rank": 14,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 15725,
       "formattedValue": "15.72K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 1776,

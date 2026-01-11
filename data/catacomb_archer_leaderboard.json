@@ -1,6 +1,6 @@
 {
   "category": "Catacomb Archer",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -39,76 +39,83 @@
     },
     {
       "rank": 6,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 1166660,
+      "formattedValue": "1.17M"
+    },
+    {
+      "rank": 7,
       "username": "DKZeuss",
       "uuid": "00502e232682441fba354172e6fc9cef",
       "value": 1139253,
       "formattedValue": "1.14M"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
       "value": 803955,
       "formattedValue": "803.96K"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
       "value": 592056,
       "formattedValue": "592.06K"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 422710,
       "formattedValue": "422.71K"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 321532,
       "formattedValue": "321.53K"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 286673,
       "formattedValue": "286.67K"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "uhcinna",
       "uuid": "9781ef6891394b02abd3f5fb377f85e9",
       "value": 94615,
       "formattedValue": "94.61K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 13967,
       "formattedValue": "13.97K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 13253,
       "formattedValue": "13.25K"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 7475,
       "formattedValue": "7.47K"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 58,

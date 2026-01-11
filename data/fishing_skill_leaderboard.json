@@ -1,6 +1,6 @@
 {
   "category": "Fishing Skill",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -88,13 +88,20 @@
     },
     {
       "rank": 13,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 614347.3228499995,
+      "formattedValue": "614.35K"
+    },
+    {
+      "rank": 14,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 482725.67000000074,
       "formattedValue": "482.73K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 200879.8250000001,

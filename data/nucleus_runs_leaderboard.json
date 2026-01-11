@@ -1,6 +1,6 @@
 {
   "category": "Nucleus Runs",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -39,34 +39,41 @@
     },
     {
       "rank": 6,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 30,
+      "formattedValue": "30"
+    },
+    {
+      "rank": 7,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
       "value": 21,
       "formattedValue": "21"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
       "value": 13,
       "formattedValue": "13"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 11,
       "formattedValue": "11"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 10,
       "formattedValue": "10"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 6,

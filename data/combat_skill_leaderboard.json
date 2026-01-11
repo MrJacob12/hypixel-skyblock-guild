@@ -1,6 +1,6 @@
 {
   "category": "Combat Skill",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "rank": 3,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 59458330.69409025,
-      "formattedValue": "59.46M"
+      "value": 59474214.34265018,
+      "formattedValue": "59.47M"
     },
     {
       "rank": 4,
@@ -81,20 +81,27 @@
     },
     {
       "rank": 12,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 19478157.13017395,
+      "formattedValue": "19.48M"
+    },
+    {
+      "rank": 13,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 10024654.294999525,
       "formattedValue": "10.02M"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 5548538.312829968,
       "formattedValue": "5.55M"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 2204536.180499943,

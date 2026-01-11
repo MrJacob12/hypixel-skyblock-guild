@@ -1,6 +1,6 @@
 {
   "category": "Melon Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -41,8 +41,8 @@
       "rank": 6,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 19642030,
-      "formattedValue": "19.64M"
+      "value": 20227950,
+      "formattedValue": "20.23M"
     },
     {
       "rank": 7,
@@ -95,6 +95,13 @@
     },
     {
       "rank": 14,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 56320,
+      "formattedValue": "56.32K"
+    },
+    {
+      "rank": 15,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 30973,

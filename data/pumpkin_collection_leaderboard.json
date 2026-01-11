@@ -1,6 +1,6 @@
 {
   "category": "Pumpkin Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "L9Lulu",
       "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-      "value": 3707669,
-      "formattedValue": "3.71M"
+      "value": 3733589,
+      "formattedValue": "3.73M"
     },
     {
       "rank": 6,
@@ -99,6 +99,13 @@
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 15074,
       "formattedValue": "15.07K"
+    },
+    {
+      "rank": 15,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 3361,
+      "formattedValue": "3.36K"
     }
   ]
 }

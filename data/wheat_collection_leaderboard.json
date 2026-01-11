@@ -1,6 +1,6 @@
 {
   "category": "Wheat Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -48,7 +48,7 @@
       "rank": 7,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 4078175,
+      "value": 4081375,
       "formattedValue": "4.08M"
     },
     {
@@ -76,8 +76,8 @@
       "rank": 11,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-      "value": 602852,
-      "formattedValue": "602.85K"
+      "value": 634724,
+      "formattedValue": "634.72K"
     },
     {
       "rank": 12,
@@ -99,6 +99,13 @@
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 206669,
       "formattedValue": "206.67K"
+    },
+    {
+      "rank": 15,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 11894,
+      "formattedValue": "11.89K"
     }
   ]
 }

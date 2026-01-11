@@ -1,6 +1,6 @@
 {
   "category": "Slayer Zombie",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -34,8 +34,8 @@
       "rank": 5,
       "username": "CrazyDegen",
       "uuid": "185aa48d293d4cdd9a842547ca23431b",
-      "value": 165635,
-      "formattedValue": "165.63K"
+      "value": 167510,
+      "formattedValue": "167.51K"
     },
     {
       "rank": 6,
@@ -74,41 +74,48 @@
     },
     {
       "rank": 11,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 48431,
+      "formattedValue": "48.43K"
+    },
+    {
+      "rank": 12,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 25088,
       "formattedValue": "25.09K"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "Shiniguy",
       "uuid": "ce0a165ee10b45debb4953834d05f3cf",
       "value": 20953,
       "formattedValue": "20.95K"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Merca_Mage",
       "uuid": "e0d51ebe369842a4a078b011316427e6",
       "value": 20618,
       "formattedValue": "20.62K"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 20518,
       "formattedValue": "20.52K"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 20205,
       "formattedValue": "20.20K"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "username": "Joeycakes45",
       "uuid": "f5ae021b89174eca98c47561dab7147b",
       "value": 6260,

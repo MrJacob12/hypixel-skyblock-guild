@@ -1,6 +1,6 @@
 {
   "category": "Pork Collection",
-  "lastUpdated": "2026-01-11 18:00:15",
+  "lastUpdated": "2026-01-11 18:16:17",
   "members": [
     {
       "rank": 1,
@@ -46,48 +46,55 @@
     },
     {
       "rank": 7,
+      "username": "L9Kogmaw",
+      "uuid": "a2c0c9099b624665876ed24996866327",
+      "value": 17966,
+      "formattedValue": "17.97K"
+    },
+    {
+      "rank": 8,
       "username": "Deki69",
       "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
       "value": 8286,
       "formattedValue": "8.29K"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 7530,
       "formattedValue": "7.53K"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Smaaaam",
       "uuid": "35dbecc5fb9e4ab4af56540732824f30",
       "value": 6934,
       "formattedValue": "6.93K"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
       "value": 4269,
       "formattedValue": "4.27K"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 1072,
       "formattedValue": "1.07K"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "njouwastaken2",
       "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
       "value": 491,
       "formattedValue": "491"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "Kjaer_",
       "uuid": "4366f92b6723462c8b99b07c91edc502",
       "value": 2,
