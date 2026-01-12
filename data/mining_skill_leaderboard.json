@@ -1,6 +1,6 @@
 {
   "category": "Mining Skill",
-  "lastUpdated": "2026-01-12 06:00:14",
+  "lastUpdated": "2026-01-12 09:00:15",
   "members": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "rank": 3,
       "username": "xpectic",
       "uuid": "3f7e798c48fb437ea94d0f4bcd8c8fa4",
-      "value": 174681685.93482792,
-      "formattedValue": "174.68M"
+      "value": 176827741.80910128,
+      "formattedValue": "176.83M"
     },
     {
       "rank": 4,
@@ -48,22 +48,22 @@
       "rank": 7,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-      "value": 118846825.6054344,
-      "formattedValue": "118.85M"
+      "value": 123426172.57227352,
+      "formattedValue": "123.43M"
     },
     {
       "rank": 8,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 102327537.20569554,
+      "formattedValue": "102.33M"
+    },
+    {
+      "rank": 9,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 100888764.74354072,
       "formattedValue": "100.89M"
-    },
-    {
-      "rank": 9,
-      "username": "njouwastaken2",
-      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 97352438.86989017,
-      "formattedValue": "97.35M"
     },
     {
       "rank": 10,
