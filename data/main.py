@@ -589,6 +589,53 @@ class LeaderboardManager:
             CollectionProcessor(self.username_cache, 'SULPHUR_ORE'),
             CollectionProcessor(self.username_cache, 'NETHERRACK'),
             
+            #COMBAT
+            CollectionProcessor(self.username_cache, 'ENDER_PEARL'),
+            CollectionProcessor(self.username_cache, 'CHILI_PEPPER'),
+            CollectionProcessor(self.username_cache, 'SLIME_BALL'),
+            CollectionProcessor(self.username_cache, 'MAGMA_CREAM'),
+            CollectionProcessor(self.username_cache, 'GHAST_TEAR'),
+            CollectionProcessor(self.username_cache, 'SULPHUR'), #Gunpowder
+            CollectionProcessor(self.username_cache, 'ROTTEN_FLESH'),
+            CollectionProcessor(self.username_cache, 'SPIDER_EYE'),
+            CollectionProcessor(self.username_cache, 'BONE'),
+            CollectionProcessor(self.username_cache, 'BLAZE_ROD'),
+            CollectionProcessor(self.username_cache, 'STRING'),
+            
+            #FORAGING
+            CollectionProcessor(self.username_cache, 'SEA_LUMIES'),
+            CollectionProcessor(self.username_cache, 'LOG_2'),
+            CollectionProcessor(self.username_cache, 'LOG:1'),
+            CollectionProcessor(self.username_cache, 'LOG:3'),
+            CollectionProcessor(self.username_cache, 'LOG:2'),
+            CollectionProcessor(self.username_cache, 'LUSHLILAC'),
+            CollectionProcessor(self.username_cache, 'MANGROVE_LOG'),
+            CollectionProcessor(self.username_cache, 'LOG'),
+            CollectionProcessor(self.username_cache, 'FIG_LOG'),
+            CollectionProcessor(self.username_cache, 'TENDER_WOOD'),
+            CollectionProcessor(self.username_cache, 'LOG_2:1'),
+            
+            #FISHING
+            CollectionProcessor(self.username_cache, 'WATER_LILY'),
+            CollectionProcessor(self.username_cache, 'PRISMARINE_SHARD'),
+            CollectionProcessor(self.username_cache, 'INK_SACK'),
+            CollectionProcessor(self.username_cache, 'RAW_FISH'),
+            CollectionProcessor(self.username_cache, 'RAW_FISH:3'),
+            CollectionProcessor(self.username_cache, 'RAW_FISH:2'),
+            CollectionProcessor(self.username_cache, 'RAW_FISH:1'),
+            CollectionProcessor(self.username_cache, 'MAGMA_FISH'),
+            CollectionProcessor(self.username_cache, 'PRISMARINE_CRYSTALS'),
+            CollectionProcessor(self.username_cache, 'CLAY_BALL'),
+            CollectionProcessor(self.username_cache, 'SPONGE'),
+            
+            #RIFT
+            CollectionProcessor(self.username_cache, 'WILTED_BERBERIS'),
+            CollectionProcessor(self.username_cache, 'METAL_HEART'),
+            CollectionProcessor(self.username_cache, 'CADUCOUS_STEM'),
+            CollectionProcessor(self.username_cache, 'AGARICUS_CAP'),
+            CollectionProcessor(self.username_cache, 'HEMOVIBE'),
+            CollectionProcessor(self.username_cache, 'HALF_EATEN_CARROT'),
+            CollectionProcessor(self.username_cache, 'TIMITE'),
         ]
     
     def run(self) -> None:
@@ -626,9 +673,9 @@ class LeaderboardManager:
             leaderboard = processor.process(active_profiles)
             leaderboards[category] = leaderboard
             
-            filename = f"{category.lower().replace(' ', '_')}_leaderboard.json"
-            self.file_manager.save_json(filename, leaderboard)
-            files_to_upload.append(filename)
+            # filename = f"{category.lower().replace(' ', '_')}_leaderboard.json"
+            # self.file_manager.save_json(filename, leaderboard)
+            # files_to_upload.append(filename)
         
         all_leaderboards_file = "all_leaderboards.json"
         self.file_manager.save_json(all_leaderboards_file, {
