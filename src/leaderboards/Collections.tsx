@@ -37,8 +37,6 @@ const Collections = ({
             </TabsTrigger>
             <TabsTrigger
               value="mining"
-              className="opacity-50 cursor-not-allowed"
-              disabled
             >
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_PICKAXE"
@@ -108,7 +106,7 @@ const Collections = ({
           </TabsContent>
 
           <TabsContent value="mining">
-            <Mining />
+            <Mining leaderboardData={leaderboardData} isLoading={isLoading} />
           </TabsContent>
 
           <TabsContent value="combat">

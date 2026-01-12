@@ -3,10 +3,20 @@ import React from "react";
 import LeaderboardCard from "@/components/LeaderboardCard";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { LeaderboardData } from "@/types/leaderboard";
 
 // Coal, Cobblestone, Diamond, Emerald, End Stone, Glacite, Gemstone, Glowstone Dust, Gold Ingot, Gravel, Hard Stone, Ice, Iron Ingot, Lapis Lazuli, Mithril, Mycelium, Nether Quartz, Netherrack, Obsidian, Red Sand, Redstone Dust, Sand, Sulphur, Tungsten, Umber
 
-const Mining = () => {
+const Mining = ({
+  isLoading,
+  leaderboardData,
+}: {
+  isLoading: boolean;
+  leaderboardData: Record<string, LeaderboardData> | null | null;
+}) => {
+  const [selectedMiningCollection, setSelectedMiningCollection] =
+    React.useState("Coal");
+
   const getMiningIcon = (item) => {
     switch (item) {
       case "Coal":
@@ -92,11 +102,16 @@ const Mining = () => {
     "Umber",
   ];
 
+  const getMiningCollectionData = () => {};
+
   return (
     <div className="py-4">
       <TabsContent value="mining" className="animate-fade-in">
         <div className="text-center py-8 text-muted-foreground">
-          <Tabs defaultValue="Coal">
+          <Tabs
+            onValueChange={(value) => setSelectedMiningCollection(value)}
+            value={selectedMiningCollection}
+          >
             <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
               {miningItems.map((item) => {
                 const value = item.toLowerCase().replace(/\s/g, "_");
