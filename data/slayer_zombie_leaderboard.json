@@ -1,6 +1,6 @@
 {
   "category": "Slayer Zombie",
-  "lastUpdated": "2026-01-12 00:00:15",
+  "lastUpdated": "2026-01-12 03:00:16",
   "members": [
     {
       "rank": 1,
@@ -39,31 +39,31 @@
     },
     {
       "rank": 6,
+      "username": "njouwastaken2",
+      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+      "value": 138854,
+      "formattedValue": "138.85K"
+    },
+    {
+      "rank": 7,
       "username": "SoloShinda",
       "uuid": "cfff7aeeda104855b9aacbb177f0655e",
       "value": 132874,
       "formattedValue": "132.87K"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "ArtOfRat",
       "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
       "value": 123862,
       "formattedValue": "123.86K"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "SalutSavatte",
       "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
       "value": 105537,
       "formattedValue": "105.54K"
-    },
-    {
-      "rank": 9,
-      "username": "njouwastaken2",
-      "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-      "value": 102854,
-      "formattedValue": "102.85K"
     },
     {
       "rank": 10,
