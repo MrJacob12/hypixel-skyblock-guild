@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 import LeaderboardCard from "@/components/LeaderboardCard";
 
@@ -15,7 +15,7 @@ const Mining = ({
   leaderboardData: Record<string, LeaderboardData> | null | null;
 }) => {
   const [selectedMiningCollection, setSelectedMiningCollection] =
-    React.useState("Coal");
+    React.useState("coal");
 
   const getMiningIcon = (item) => {
     switch (item) {
@@ -102,50 +102,208 @@ const Mining = ({
     "Umber",
   ];
 
-  const getMiningCollectionData = () => {};
+  const getMiningCollectionData = () => {
+    switch (selectedMiningCollection) {
+      case "coal":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Coal Collection"]
+          : null;
+      case "cobblestone":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Cobblestone Collection"]
+          : null;
+      case "diamond":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Diamond Collection"]
+          : null;
+      case "emerald":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Emerald Collection"]
+          : null;
+      case "end_stone":
+        return leaderboardData
+          ? {
+              category: "End Stone Collection",
+              members:
+                leaderboardData.leaderboards["Ender_stone Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "glacite":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Glacite Collection"]
+          : null;
+      case "gemstone":
+        return leaderboardData
+          ? {
+              category: "Gemstone Collection",
+              members:
+                leaderboardData.leaderboards["Gemstone_collection Collection"]
+                  ?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "glowstone_dust":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Glowstone_dust Collection"]
+          : null;
+      case "gold":
+        return leaderboardData
+          ? {
+              category: "Gold Collection",
+              members:
+                leaderboardData.leaderboards["Gold_ingot Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "gravel":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Gravel Collection"]
+          : null;
+      case "hard_stone":
+        return leaderboardData
+          ? {
+              category: "Hard Stone Collection",
+              members:
+                leaderboardData.leaderboards["Hard_stone Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "ice":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Ice Collection"]
+          : null;
+      case "iron":
+        return leaderboardData
+          ? {
+              category: "Iron Collection",
+              members:
+                leaderboardData.leaderboards["Iron_ingot Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "lapis_lazuli":
+        return leaderboardData
+          ? {
+              category: "Lapis Lazuli Collection",
+              members:
+                leaderboardData.leaderboards["Ink_sack:4 Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "mithril":
+        return leaderboardData
+          ? {
+              category: "Mithril Collection",
+              members:
+                leaderboardData.leaderboards["Mithril_ore Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "mycelium":
+        return leaderboardData
+          ? {
+              category: "Mycelium Collection",
+              members:
+                leaderboardData.leaderboards["Mycel Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+
+      case "nether_quartz":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Quartz Collection"]
+          : null;
+      case "netherrack":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Netherrack Collection"]
+          : null;
+      case "obsidian":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Obsidian Collection"]
+          : null;
+      case "red_sand":
+        return leaderboardData
+          ? {
+              category: "Red Sand Collection",
+              members:
+                leaderboardData.leaderboards["Sand:1 Collection"]?.members,
+            }
+          : null;
+      case "redstone_dust":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Redstone Collection"]
+          : null;
+      case "sand":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Sand Collection"]
+          : null;
+      case "sulphur":
+        return leaderboardData
+          ? {
+              category: "Sulphur Collection",
+              members:
+                leaderboardData.leaderboards["Sulphur_ore Collection"]?.members,
+              lastUpdated: leaderboardData.lastUpdated,
+            }
+          : null;
+      case "tungsten":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Tungsten Collection"]
+          : null;
+      case "umber":
+        return leaderboardData
+          ? leaderboardData.leaderboards["Umber Collection"]
+          : null;
+
+      default:
+        return {};
+    }
+  };
 
   return (
     <div className="py-4">
       <TabsContent value="mining" className="animate-fade-in">
         <div className="text-center py-8 text-muted-foreground">
-          <Tabs
-            onValueChange={(value) => setSelectedMiningCollection(value)}
-            value={selectedMiningCollection}
-          >
-            <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
-              {miningItems.map((item) => {
-                const value = item.toLowerCase().replace(/\s/g, "_");
-                const category = item.toUpperCase().replace(/\s/g, "_");
+          {isLoading ? (
+            "Loading mining leaderboards..."
+          ) : (
+            <Tabs
+              value={selectedMiningCollection}
+              onValueChange={setSelectedMiningCollection}
+            >
+              <TabsList className="mb-6 bg-accent/50 flex-wrap h-auto">
+                {miningItems.map((item) => {
+                  const value = item.toLowerCase().replace(/\s/g, "_");
+                  const category = item.toUpperCase().replace(/\s/g, "_");
 
-                return (
-                  <TabsTrigger key={value} value={value}>
-                    <img
-                      src={getMiningIcon(item)}
-                      className="w-8 disable-blur"
-                      alt={item}
-                    />
-                    {item}
-                  </TabsTrigger>
-                );
-              })}
-            </TabsList>
+                  return (
+                    <TabsTrigger key={value} value={value}>
+                      <img
+                        src={getMiningIcon(item)}
+                        className="w-8 disable-blur"
+                        alt={item}
+                      />
+                      {item}
+                    </TabsTrigger>
+                  );
+                })}
+              </TabsList>
 
-            <div className="mt-8">
-              {miningItems.map((item) => {
-                const value = item.toLowerCase().replace(/\s/g, "_");
-                const category = item.toUpperCase().replace(/\s/g, "_");
+              <div className="mt-8">
+                {miningItems.map((item) => {
+                  const value = item.toLowerCase().replace(/\s/g, "_");
+                  const category = item.toUpperCase().replace(/\s/g, "_");
 
-                return (
-                  <TabsContent key={value} value={value}>
-                    <h3 className="text-2xl font-bold mb-4">
-                      {item} Leaderboard
-                    </h3>
-                    <span>Leaderboard Coming Soon!</span>
-                  </TabsContent>
-                );
-              })}
-            </div>
-          </Tabs>
+                  return (
+                    <TabsContent key={value} value={value}>
+                      <LeaderboardCard data={getMiningCollectionData()} />
+                    </TabsContent>
+                  );
+                })}
+              </div>
+            </Tabs>
+          )}
         </div>
       </TabsContent>
     </div>
