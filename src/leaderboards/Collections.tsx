@@ -6,6 +6,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import Farming from "@/leaderboards/Collections/Farming";
 import Mining from "@/leaderboards/Collections/Mining";
 import { LeaderboardData } from "@/types/leaderboard";
+import Combat from "./Collections/Combat";
 
 const Collections = ({
   isLoading,
@@ -35,20 +36,14 @@ const Collections = ({
               />
               Farming
             </TabsTrigger>
-            <TabsTrigger
-              value="mining"
-            >
+            <TabsTrigger value="mining">
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_PICKAXE"
                 className="w-8 disable-blur"
               />
               Mining
             </TabsTrigger>
-            <TabsTrigger
-              value="combat"
-              className="opacity-50 cursor-not-allowed"
-              disabled
-            >
+            <TabsTrigger value="combat">
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_SWORD"
                 className="w-8 disable-blur"
@@ -111,7 +106,7 @@ const Collections = ({
 
           <TabsContent value="combat">
             <div className="py-4">
-              Combat Collections Leaderboard Coming Soon!
+              <Combat leaderboardData={leaderboardData} isLoading={isLoading} />
             </div>
           </TabsContent>
 
