@@ -1,6 +1,6 @@
 {
   "category": "Carrot_item Collection",
-  "lastUpdated": "2026-01-12 09:00:15",
+  "lastUpdated": "2026-01-12 12:00:16",
   "members": [
     {
       "rank": 1,
@@ -11,17 +11,17 @@
     },
     {
       "rank": 2,
+      "username": "DKZeuss",
+      "uuid": "00502e232682441fba354172e6fc9cef",
+      "value": 12373354,
+      "formattedValue": "12.37M"
+    },
+    {
+      "rank": 3,
       "username": "uhcinna",
       "uuid": "9781ef6891394b02abd3f5fb377f85e9",
       "value": 12189733,
       "formattedValue": "12.19M"
-    },
-    {
-      "rank": 3,
-      "username": "DKZeuss",
-      "uuid": "00502e232682441fba354172e6fc9cef",
-      "value": 12027434,
-      "formattedValue": "12.03M"
     },
     {
       "rank": 4,
@@ -55,8 +55,8 @@
       "rank": 8,
       "username": "Akse_e",
       "uuid": "5bfccebcbda5455690323d89eb254c30",
-      "value": 1561039,
-      "formattedValue": "1.56M"
+      "value": 1607439,
+      "formattedValue": "1.61M"
     },
     {
       "rank": 9,
