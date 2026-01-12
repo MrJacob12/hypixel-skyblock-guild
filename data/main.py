@@ -562,6 +562,33 @@ class LeaderboardManager:
             CollectionProcessor(self.username_cache, 'WILD_ROSE'),
             CollectionProcessor(self.username_cache, 'MOONFLOWER'),
             
+            #MINING
+            CollectionProcessor(self.username_cache, 'INK_SACK:4'), #Lapis Lazuli
+            CollectionProcessor(self.username_cache, 'REDSTONE'),
+            CollectionProcessor(self.username_cache, 'UMBER'),
+            CollectionProcessor(self.username_cache, 'COAL'),
+            CollectionProcessor(self.username_cache, 'MYCEL'),
+            CollectionProcessor(self.username_cache, 'ENDER_STONE'),
+            CollectionProcessor(self.username_cache, 'QUARTZ'),
+            CollectionProcessor(self.username_cache, 'SAND'),
+            CollectionProcessor(self.username_cache, 'IRON_INGOT'),
+            CollectionProcessor(self.username_cache, 'GEMSTONE_COLLECTION'),
+            CollectionProcessor(self.username_cache, 'TUNGSTEN'),
+            CollectionProcessor(self.username_cache, 'OBSIDIAN'),
+            CollectionProcessor(self.username_cache, 'DIAMOND'),
+            CollectionProcessor(self.username_cache, 'COBBLESTONE'),
+            CollectionProcessor(self.username_cache, 'GLOWSTONE_DUST'),
+            CollectionProcessor(self.username_cache, 'GOLD_INGOT'),
+            CollectionProcessor(self.username_cache, 'GRAVEL'),
+            CollectionProcessor(self.username_cache, 'HARD_STONE'),
+            CollectionProcessor(self.username_cache, 'MITHRIL_ORE'),
+            CollectionProcessor(self.username_cache, 'EMERALD'),
+            CollectionProcessor(self.username_cache, 'SAND:1'), # Red sand
+            CollectionProcessor(self.username_cache, 'ICE'),
+            CollectionProcessor(self.username_cache, 'GLACITE'),
+            CollectionProcessor(self.username_cache, 'SULPHUR_ORE'),
+            CollectionProcessor(self.username_cache, 'NETHERRACK'),
+            
         ]
     
     def run(self) -> None:
