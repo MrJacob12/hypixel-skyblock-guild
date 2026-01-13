@@ -7,6 +7,9 @@ import Farming from "@/leaderboards/Collections/Farming";
 import Mining from "@/leaderboards/Collections/Mining";
 import { LeaderboardData } from "@/types/leaderboard";
 import Combat from "./Collections/Combat";
+import Foraging from "./Collections/Foraging";
+import Fishing from "./Collections/Fishing";
+import Rift from "./Collections/Rift";
 
 const Collections = ({
   isLoading,
@@ -50,22 +53,14 @@ const Collections = ({
               />
               Combat
             </TabsTrigger>
-            <TabsTrigger
-              value="foraging"
-              className="opacity-50 cursor-not-allowed"
-              disabled
-            >
+            <TabsTrigger value="foraging">
               <img
                 src="https://sky.shiiyu.moe/api/item/IRON_AXE"
                 className="w-8 disable-blur"
               />
               Foraging
             </TabsTrigger>
-            <TabsTrigger
-              value="fishing"
-              className="opacity-50 cursor-not-allowed"
-              disabled
-            >
+            <TabsTrigger value="fishing">
               <img
                 src="https://sky.shiiyu.moe/api/item/FISHING_ROD"
                 className="w-8 disable-blur"
@@ -83,11 +78,7 @@ const Collections = ({
               />
               Bosses
             </TabsTrigger>
-            <TabsTrigger
-              value="rift"
-              className="opacity-50 cursor-not-allowed"
-              disabled
-            >
+            <TabsTrigger value="rift">
               <img
                 src="https://wiki.hypixel.net/images/8/8d/SkyBlock_items_enchanted_mycelium.gif"
                 className="w-8 disable-blur"
@@ -112,13 +103,19 @@ const Collections = ({
 
           <TabsContent value="foraging">
             <div className="py-4">
-              Foraging Collections Leaderboard Coming Soon!
+              <Foraging
+                leaderboardData={leaderboardData}
+                isLoading={isLoading}
+              />
             </div>
           </TabsContent>
 
           <TabsContent value="fishing">
             <div className="py-4">
-              Fishing Collections Leaderboard Coming Soon!
+              <Fishing
+                leaderboardData={leaderboardData}
+                isLoading={isLoading}
+              />
             </div>
           </TabsContent>
 
@@ -130,7 +127,7 @@ const Collections = ({
 
           <TabsContent value="rift">
             <div className="py-4">
-              Rift Collections Leaderboard Coming Soon!
+              <Rift leaderboardData={leaderboardData} isLoading={isLoading} />
             </div>
           </TabsContent>
         </Tabs>

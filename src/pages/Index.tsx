@@ -58,9 +58,9 @@ const Index = () => {
     )
       .then((r) => r.json())
       .then((data) => {
-        console.log(
-          "Active Ironman Profiles:",
-          data["data"][13]["members"][data["data"][13]["uuid"]]
+        console.log("Active Ironman Profiles:", 
+          //SEARCH IN ARRAY VALUES TO FIND b1a9320159db43d1990dbcfaaee7d13b
+          data["data"].find((profile: any) => profile.uuid === "b1a9320159db43d1990dbcfaaee7d13b")["members"]["b1a9320159db43d1990dbcfaaee7d13b"]
         );
       })
       .catch((error) => {
