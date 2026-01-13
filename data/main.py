@@ -609,6 +609,7 @@ class LeaderboardManager:
             CollectionProcessor(self.username_cache, 'LOG:3'),
             CollectionProcessor(self.username_cache, 'LOG:2'),
             CollectionProcessor(self.username_cache, 'LUSHLILAC'),
+            CollectionProcessor(self.username_cache, 'VINESAP'),
             CollectionProcessor(self.username_cache, 'MANGROVE_LOG'),
             CollectionProcessor(self.username_cache, 'LOG'),
             CollectionProcessor(self.username_cache, 'FIG_LOG'),
