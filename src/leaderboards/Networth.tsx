@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 
-import LeaderboardCard from "@/components/LeaderboardCard";
+import LeaderboardCardWithImg from "@/components/LeaderboardCardWithImg";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { LeaderboardData } from "@/types/leaderboard";
 
 const Networth = ({
   isLoading,
   data,
 }: {
   isLoading: boolean;
-  leaderboardData: Record<string, LeaderboardData> | null | null;
+  data: Record<string, LeaderboardData> | null | null;
 }) => {
   const [selectedNetworth, setSelectedNetworth] = useState("networth");
 
@@ -20,7 +21,7 @@ const Networth = ({
       case "mostExpensiveItem":
         return data["Most Expensive Item"];
       default:
-          return {};
+          return null;
     };
   }
 
@@ -40,7 +41,6 @@ const Networth = ({
               />
               Most Expensive Item
             </TabsTrigger>
-            
           </TabsList>
           <div className="text-center py-8 text-muted-foreground">
             <TabsContent value={selectedNetworth}>
@@ -51,8 +51,8 @@ const Networth = ({
                       Loading {role.charAt(0).toUpperCase() + role.slice(1)}{" "}
                       data...
                     </div>
-                  ) : getNetworthData() ? (
-                    <LeaderboardCard data={getNetworthData()} />
+                  ) : data && getNetworthData() ? (
+                    <LeaderboardCardWithImg data={getNetworthData()} />
                   ) : (
                     <div className="text-center py-8 text-muted-foreground">
                       No {role.charAt(0).toUpperCase() + role.slice(1)} data

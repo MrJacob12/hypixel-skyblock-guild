@@ -4,6 +4,7 @@ export interface GuildMember {
   uuid: string;
   value: number;
   formattedValue: string;
+  icon?: string;
 }
 
 export interface LeaderboardData {

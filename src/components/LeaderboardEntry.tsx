@@ -97,7 +97,7 @@ const LeaderboardEntry = ({ member, index }: LeaderboardEntryProps) => {
 
       <span
         className={cn(
-          "font-semibold tabular-nums",
+          "font-semibold tabular-nums flex items-center",
           member.rank === 1
             ? "text-lg"
             : member.rank <= 3
@@ -107,6 +107,9 @@ const LeaderboardEntry = ({ member, index }: LeaderboardEntryProps) => {
         )}
       >
         {member.formattedValue}
+        {member.icon ? (
+          <img src={member.icon} className="w-8 disable-blur object-cover" />
+        ) : null}
       </span>
     </div>
   );
