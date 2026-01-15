@@ -51,22 +51,31 @@ const Index = () => {
     LeaderboardData
   > | null>(null);
 
+  const [networthLeaderboardData, setNetworthLeaderboardData] = useState<Record<
+    string,
+    LeaderboardData
+  > | null>(null)
+
   // For testing purposes
-  useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/MrJacob12/hypixel-skyblock-guild/refs/heads/main/data/active_ironman_profiles.json"
-    )
-      .then((r) => r.json())
-      .then((data) => {
-        console.log("Active Ironman Profiles:", 
-          //SEARCH IN ARRAY VALUES TO FIND b1a9320159db43d1990dbcfaaee7d13b
-          data["data"].find((profile: any) => profile.uuid === "b1a9320159db43d1990dbcfaaee7d13b")["members"]["b1a9320159db43d1990dbcfaaee7d13b"]
-        );
-      })
-      .catch((error) => {
-        console.error("Error loading active ironman profiles:", error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch(
+  //     "https://raw.githubusercontent.com/MrJacob12/hypixel-skyblock-guild/refs/heads/main/data/active_ironman_profiles.json"
+  //   )
+  //     .then((r) => r.json())
+  //     .then((data) => {
+  //       console.log(
+  //         "Active Ironman Profiles:",
+  //         //SEARCH IN ARRAY VALUES TO FIND b1a9320159db43d1990dbcfaaee7d13b
+  //         data["data"].find(
+  //           (profile: any) =>
+  //             profile.uuid === "b1a9320159db43d1990dbcfaaee7d13b"
+  //         )["members"]["b1a9320159db43d1990dbcfaaee7d13b"]
+  //       );
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error loading active ironman profiles:", error);
+  //     });
+  // }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -113,7 +122,24 @@ const Index = () => {
           setIsLoading(false);
         });
     };
+
+    const fetchDataNet = async () => {
+      setIsLoading(true);
+      fetch("https://raw.githubusercontent.com/MrJacob12/hypixel-skyblock-guild/refs/heads/main/data/skyblock-nw/leaderboards.json")
+      .then((r) => r.json())
+      .then((data: Record<string, LeaderboardData>) => {
+        setNetworthLeaderboardData(data["leaderboards"]);
+      })
+      .catch((error) => {
+          console.error("Error loading data:", error);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+    }
+
     fetchData();
+    fetchDataNet();
   }, []);
 
   return (
@@ -140,7 +166,7 @@ const Index = () => {
                 />
                 Skyblock Level
               </TabsTrigger>
-              <TabsTrigger value="networth" disabled>
+              <TabsTrigger value="networth">
                 <span className="text-foreground text-amber-500">℻</span>Net
                 Worth
               </TabsTrigger>
@@ -210,7 +236,7 @@ const Index = () => {
               tamingSkillData={tamingSkillData}
             />
 
-            <Networth />
+            <Networth isLoading={isLoading} data={networthLeaderboardData} />
 
             <Catacombs
               selectedCatacombs={selectedCatacombs}
