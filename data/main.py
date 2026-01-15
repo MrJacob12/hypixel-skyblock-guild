@@ -441,16 +441,25 @@ class ProfileFilter:
             
             active_profile = None
             for profile in data['profiles']:
+                # Szukamy aktywnego profilu w danym trybie
                 if profile.get('selected') and profile.get('game_mode') == game_mode:
-                    active_profile = profile
+                    active_profile = profile.copy()  # Kopiujemy, aby nie modyfikować oryginału w locie
                     break
             
             if active_profile:
+                # --- CZYSZCZENIE CZŁONKÓW CO-OP ---
+                # Zachowujemy tylko klucz w 'members', który odpowiada aktualnemu graczowi gildii
+                all_members = active_profile.get('members', {})
+                cleaned_members = {}
+                
+                if player_uuid in all_members:
+                    cleaned_members = {player_uuid: all_members[player_uuid]}
+                
                 active_profiles.append({
                     'uuid': player_uuid,
                     'profile_id': active_profile.get('profile_id', 'Unknown'),
                     'profile_data': active_profile,
-                    'members': active_profile.get('members', {}),
+                    'members': cleaned_members, # Tutaj jest tylko nasz gracz
                     'status': f'Found Active ({game_mode})'
                 })
             else:
@@ -462,7 +471,6 @@ class ProfileFilter:
                 })
         
         return active_profiles
-
 
 class FileManager:
     def __init__(self, config: Config):
@@ -641,7 +649,7 @@ class LeaderboardManager:
     
     def run(self) -> None:
         print("=== Starting Hypixel Leaderboard Update ===")
-        subprocess.run(["git", "-C", self.config.repo_path, "pull"], check=True)
+        # subprocess.run(["git", "-C", self.config.repo_path, "pull"], check=True)
         print("\n[1/4] Fetching guild members...")
         uuids = self.data_collector.get_guild_members()
         print(f"Found {len(uuids)} members")
@@ -686,7 +694,7 @@ class LeaderboardManager:
         files_to_upload.append(all_leaderboards_file)
         
         print("\n=== Uploading to Git ===")
-        self.file_manager.upload_to_git(files_to_upload)
+        # self.file_manager.upload_to_git(files_to_upload)
         
         print("\n=== Update Complete ===")
 
