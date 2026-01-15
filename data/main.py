@@ -496,14 +496,14 @@ class FileManager:
             
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
-            subprocess.run(["git", "-C", repo_path, "add", "."], check=True)
-            subprocess.run(
-                ["git", "-C", repo_path, "commit", "-m", f"Data Update - {timestamp}"],
-                check=True
-            )
-            subprocess.run(["git", "-C", repo_path, "push"], check=True)
+            # subprocess.run(["git", "-C", repo_path, "add", "."], check=True)
+            # subprocess.run(
+            #     ["git", "-C", repo_path, "commit", "-m", f"Data Update - {timestamp}"],
+            #     check=True
+            # )
+            # subprocess.run(["git", "-C", repo_path, "push"], check=True)
             
-            print("Files uploaded via Git")
+            # print("Files uploaded via Git")
             return True
             
         except Exception as e:
@@ -694,7 +694,7 @@ class LeaderboardManager:
         files_to_upload.append(all_leaderboards_file)
         
         print("\n=== Uploading to Git ===")
-        # self.file_manager.upload_to_git(files_to_upload)
+        self.file_manager.upload_to_git(files_to_upload)
         
         print("\n=== Update Complete ===")
 
