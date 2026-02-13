@@ -2,7 +2,7 @@
   "leaderboards": {
     "Skyblock Level": {
       "category": "Skyblock Level",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -120,8 +120,8 @@
           "rank": 17,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 123,
-          "formattedValue": "123"
+          "value": 124,
+          "formattedValue": "124"
         },
         {
           "rank": 18,
@@ -141,7 +141,7 @@
     },
     "Nucleus Runs": {
       "category": "Nucleus Runs",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -252,7 +252,7 @@
     },
     "Combat Skill": {
       "category": "Combat Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -265,8 +265,8 @@
           "rank": 2,
           "username": "CrazyDegen",
           "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 81825178.5123914,
-          "formattedValue": "81.83M"
+          "value": 82478762.26138888,
+          "formattedValue": "82.48M"
         },
         {
           "rank": 3,
@@ -307,7 +307,7 @@
           "rank": 8,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 47108223.084892966,
+          "value": 47108393.358892985,
           "formattedValue": "47.11M"
         },
         {
@@ -328,8 +328,8 @@
           "rank": 11,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 33078584.362938035,
-          "formattedValue": "33.08M"
+          "value": 33102507.56293804,
+          "formattedValue": "33.10M"
         },
         {
           "rank": 12,
@@ -342,8 +342,8 @@
           "rank": 13,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 10551360.010999952,
-          "formattedValue": "10.55M"
+          "value": 10601401.56100001,
+          "formattedValue": "10.60M"
         },
         {
           "rank": 14,
@@ -363,8 +363,8 @@
           "rank": 16,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 8109770.871740619,
-          "formattedValue": "8.11M"
+          "value": 8133922.551740624,
+          "formattedValue": "8.13M"
         },
         {
           "rank": 17,
@@ -377,7 +377,7 @@
     },
     "Farming Skill": {
       "category": "Farming Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -397,8 +397,8 @@
           "rank": 3,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 152696637.25254562,
-          "formattedValue": "152.70M"
+          "value": 153135740.9705508,
+          "formattedValue": "153.14M"
         },
         {
           "rank": 4,
@@ -425,15 +425,15 @@
           "rank": 7,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 51090487.877215356,
-          "formattedValue": "51.09M"
+          "value": 51279552.21021554,
+          "formattedValue": "51.28M"
         },
         {
           "rank": 8,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 44853115.480407484,
-          "formattedValue": "44.85M"
+          "value": 45365639.44840964,
+          "formattedValue": "45.37M"
         },
         {
           "rank": 9,
@@ -474,8 +474,8 @@
           "rank": 14,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 16861278.524499886,
-          "formattedValue": "16.86M"
+          "value": 17258552.2794999,
+          "formattedValue": "17.26M"
         },
         {
           "rank": 15,
@@ -502,7 +502,7 @@
     },
     "Fishing Skill": {
       "category": "Fishing Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -515,8 +515,8 @@
           "rank": 2,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 34939372.48271993,
-          "formattedValue": "34.94M"
+          "value": 35004886.754719906,
+          "formattedValue": "35.00M"
         },
         {
           "rank": 3,
@@ -557,8 +557,8 @@
           "rank": 8,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 6999399.760850234,
-          "formattedValue": "7.00M"
+          "value": 7063807.372850235,
+          "formattedValue": "7.06M"
         },
         {
           "rank": 9,
@@ -571,8 +571,8 @@
           "rank": 10,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 2663046.0703249816,
-          "formattedValue": "2.66M"
+          "value": 2727232.350324982,
+          "formattedValue": "2.73M"
         },
         {
           "rank": 11,
@@ -627,7 +627,7 @@
     },
     "Mining Skill": {
       "category": "Mining Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -640,15 +640,15 @@
           "rank": 2,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 243335700.06829745,
-          "formattedValue": "243.34M"
+          "value": 243351246.33920994,
+          "formattedValue": "243.35M"
         },
         {
           "rank": 3,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 241866603.50833997,
-          "formattedValue": "241.87M"
+          "value": 242253084.7085952,
+          "formattedValue": "242.25M"
         },
         {
           "rank": 4,
@@ -694,17 +694,17 @@
         },
         {
           "rank": 10,
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 101073563.78739534,
+          "formattedValue": "101.07M"
+        },
+        {
+          "rank": 11,
           "username": "SalutSavatte",
           "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
           "value": 100888764.74354072,
           "formattedValue": "100.89M"
-        },
-        {
-          "rank": 11,
-          "username": "Akse_e",
-          "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 100756021.46837527,
-          "formattedValue": "100.76M"
         },
         {
           "rank": 12,
@@ -724,8 +724,8 @@
           "rank": 14,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 35656103.65829311,
-          "formattedValue": "35.66M"
+          "value": 35802865.55329311,
+          "formattedValue": "35.80M"
         },
         {
           "rank": 15,
@@ -738,8 +738,8 @@
           "rank": 16,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 14671308.692161776,
-          "formattedValue": "14.67M"
+          "value": 14707789.058161635,
+          "formattedValue": "14.71M"
         },
         {
           "rank": 17,
@@ -752,7 +752,7 @@
     },
     "Foraging Skill": {
       "category": "Foraging Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -877,7 +877,7 @@
     },
     "Enchanting Skill": {
       "category": "Enchanting Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -974,15 +974,15 @@
           "rank": 14,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 19997127.862256493,
-          "formattedValue": "20.00M"
+          "value": 20006078.201196473,
+          "formattedValue": "20.01M"
         },
         {
           "rank": 15,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 19572745.57070846,
-          "formattedValue": "19.57M"
+          "value": 19577794.08154663,
+          "formattedValue": "19.58M"
         },
         {
           "rank": 16,
@@ -1002,7 +1002,7 @@
     },
     "Alchemy Skill": {
       "category": "Alchemy Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1127,21 +1127,21 @@
     },
     "Carpentry Skill": {
       "category": "Carpentry Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
           "username": "CrazyDegen",
           "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 153278177.69889322,
-          "formattedValue": "153.28M"
+          "value": 153433179.2988932,
+          "formattedValue": "153.43M"
         },
         {
           "rank": 2,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 99956496.23246199,
-          "formattedValue": "99.96M"
+          "value": 100340381.03246199,
+          "formattedValue": "100.34M"
         },
         {
           "rank": 3,
@@ -1203,15 +1203,15 @@
           "rank": 11,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 27116353.53292125,
-          "formattedValue": "27.12M"
+          "value": 27244468.53292125,
+          "formattedValue": "27.24M"
         },
         {
           "rank": 12,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 25611586.76239101,
-          "formattedValue": "25.61M"
+          "value": 25767586.762390997,
+          "formattedValue": "25.77M"
         },
         {
           "rank": 13,
@@ -1224,8 +1224,8 @@
           "rank": 14,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 15991422.856500134,
-          "formattedValue": "15.99M"
+          "value": 16129151.941500135,
+          "formattedValue": "16.13M"
         },
         {
           "rank": 15,
@@ -1252,7 +1252,7 @@
     },
     "Taming Skill": {
       "category": "Taming Skill",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1272,15 +1272,15 @@
           "rank": 3,
           "username": "CrazyDegen",
           "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 250727775.4702268,
-          "formattedValue": "250.73M"
+          "value": 250983464.08825502,
+          "formattedValue": "250.98M"
         },
         {
           "rank": 4,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 241135055.74270812,
-          "formattedValue": "241.14M"
+          "value": 241147335.15920153,
+          "formattedValue": "241.15M"
         },
         {
           "rank": 5,
@@ -1293,8 +1293,8 @@
           "rank": 6,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 156836620.72284028,
-          "formattedValue": "156.84M"
+          "value": 157095847.47081134,
+          "formattedValue": "157.10M"
         },
         {
           "rank": 7,
@@ -1321,15 +1321,15 @@
           "rank": 10,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 131223372.26863861,
-          "formattedValue": "131.22M"
+          "value": 131501490.52284123,
+          "formattedValue": "131.50M"
         },
         {
           "rank": 11,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 125132432.27506202,
-          "formattedValue": "125.13M"
+          "value": 125263192.27516413,
+          "formattedValue": "125.26M"
         },
         {
           "rank": 12,
@@ -1363,8 +1363,8 @@
           "rank": 16,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 25081934.362181142,
-          "formattedValue": "25.08M"
+          "value": 25157019.345552057,
+          "formattedValue": "25.16M"
         },
         {
           "rank": 17,
@@ -1377,7 +1377,7 @@
     },
     "Magical Power": {
       "category": "Magical Power",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1516,7 +1516,7 @@
     },
     "Slayer Zombie": {
       "category": "Slayer Zombie",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1655,7 +1655,7 @@
     },
     "Slayer Spider": {
       "category": "Slayer Spider",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1794,7 +1794,7 @@
     },
     "Slayer Wolf": {
       "category": "Slayer Wolf",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -1933,21 +1933,21 @@
     },
     "Slayer Enderman": {
       "category": "Slayer Enderman",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
+          "username": "CrazyDegen",
+          "uuid": "185aa48d293d4cdd9a842547ca23431b",
+          "value": 238406,
+          "formattedValue": "238.41K"
+        },
+        {
+          "rank": 2,
           "username": "Leetax",
           "uuid": "2fe38d08df04477480b3f800f69dc948",
           "value": 233112,
           "formattedValue": "233.11K"
-        },
-        {
-          "rank": 2,
-          "username": "CrazyDegen",
-          "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 230406,
-          "formattedValue": "230.41K"
         },
         {
           "rank": 3,
@@ -2051,7 +2051,7 @@
     },
     "Slayer Vampire": {
       "category": "Slayer Vampire",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2099,7 +2099,7 @@
     },
     "Slayer Blaze": {
       "category": "Slayer Blaze",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2147,7 +2147,7 @@
     },
     "Catacombs": {
       "category": "Catacombs",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2251,8 +2251,8 @@
           "rank": 15,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 930892,
-          "formattedValue": "930.89K"
+          "value": 969352,
+          "formattedValue": "969.35K"
         },
         {
           "rank": 16,
@@ -2286,7 +2286,7 @@
     },
     "Catacomb Archer": {
       "category": "Catacomb Archer",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2383,8 +2383,8 @@
           "rank": 14,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 109691,
-          "formattedValue": "109.69K"
+          "value": 110979,
+          "formattedValue": "110.98K"
         },
         {
           "rank": 15,
@@ -2425,7 +2425,7 @@
     },
     "Catacomb Berserker": {
       "category": "Catacomb Berserker",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2515,8 +2515,8 @@
           "rank": 13,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 600798,
-          "formattedValue": "600.80K"
+          "value": 625339,
+          "formattedValue": "625.34K"
         },
         {
           "rank": 14,
@@ -2564,7 +2564,7 @@
     },
     "Catacomb Healer": {
       "category": "Catacomb Healer",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2668,8 +2668,8 @@
           "rank": 15,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 16108,
-          "formattedValue": "16.11K"
+          "value": 19844,
+          "formattedValue": "19.84K"
         },
         {
           "rank": 16,
@@ -2696,7 +2696,7 @@
     },
     "Catacomb Mage": {
       "category": "Catacomb Mage",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2835,7 +2835,7 @@
     },
     "Catacomb Tank": {
       "category": "Catacomb Tank",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -2939,8 +2939,8 @@
           "rank": 15,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 31332,
-          "formattedValue": "31.33K"
+          "value": 35068,
+          "formattedValue": "35.07K"
         },
         {
           "rank": 16,
@@ -2974,7 +2974,7 @@
     },
     "Cactus Collection": {
       "category": "Cactus Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3008,8 +3008,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 3996373,
-          "formattedValue": "4.00M"
+          "value": 4022773,
+          "formattedValue": "4.02M"
         },
         {
           "rank": 6,
@@ -3092,7 +3092,7 @@
     },
     "Carrot_item Collection": {
       "category": "Carrot_item Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3133,8 +3133,8 @@
           "rank": 6,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 10995558,
-          "formattedValue": "11.00M"
+          "value": 11009478,
+          "formattedValue": "11.01M"
         },
         {
           "rank": 7,
@@ -3217,7 +3217,7 @@
     },
     "Ink_sack:3 Collection": {
       "category": "Ink_sack:3 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3258,8 +3258,8 @@
           "rank": 6,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 5729635,
-          "formattedValue": "5.73M"
+          "value": 5751395,
+          "formattedValue": "5.75M"
         },
         {
           "rank": 7,
@@ -3335,7 +3335,7 @@
     },
     "Feather Collection": {
       "category": "Feather Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3402,24 +3402,24 @@
         },
         {
           "rank": 10,
+          "username": "DeadGato",
+          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+          "value": 152402,
+          "formattedValue": "152.40K"
+        },
+        {
+          "rank": 11,
           "username": "Smaaaam",
           "uuid": "35dbecc5fb9e4ab4af56540732824f30",
           "value": 91030,
           "formattedValue": "91.03K"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "username": "Deki69",
           "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
           "value": 72268,
           "formattedValue": "72.27K"
-        },
-        {
-          "rank": 12,
-          "username": "DeadGato",
-          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 72069,
-          "formattedValue": "72.07K"
         },
         {
           "rank": 13,
@@ -3460,7 +3460,7 @@
     },
     "Leather Collection": {
       "category": "Leather Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3557,8 +3557,8 @@
           "rank": 14,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 97139,
-          "formattedValue": "97.14K"
+          "value": 102900,
+          "formattedValue": "102.90K"
         },
         {
           "rank": 15,
@@ -3585,7 +3585,7 @@
     },
     "Melon Collection": {
       "category": "Melon Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3598,8 +3598,8 @@
           "rank": 2,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 100294928,
-          "formattedValue": "100.29M"
+          "value": 102302647,
+          "formattedValue": "102.30M"
         },
         {
           "rank": 3,
@@ -3633,8 +3633,8 @@
           "rank": 7,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 16958317,
-          "formattedValue": "16.96M"
+          "value": 17081302,
+          "formattedValue": "17.08M"
         },
         {
           "rank": 8,
@@ -3703,7 +3703,7 @@
     },
     "Mushroom_collection Collection": {
       "category": "Mushroom_collection Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3723,8 +3723,8 @@
           "rank": 3,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 17902970,
-          "formattedValue": "17.90M"
+          "value": 17921142,
+          "formattedValue": "17.92M"
         },
         {
           "rank": 4,
@@ -3751,7 +3751,7 @@
           "rank": 7,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 4898937,
+          "value": 4902937,
           "formattedValue": "4.90M"
         },
         {
@@ -3828,7 +3828,7 @@
     },
     "Mutton Collection": {
       "category": "Mutton Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3883,8 +3883,8 @@
           "rank": 8,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 56907,
-          "formattedValue": "56.91K"
+          "value": 90028,
+          "formattedValue": "90.03K"
         },
         {
           "rank": 9,
@@ -3953,7 +3953,7 @@
     },
     "Nether_stalk Collection": {
       "category": "Nether_stalk Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -3987,8 +3987,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 10378385,
-          "formattedValue": "10.38M"
+          "value": 10402545,
+          "formattedValue": "10.40M"
         },
         {
           "rank": 6,
@@ -4078,7 +4078,7 @@
     },
     "Potato_item Collection": {
       "category": "Potato_item Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4126,8 +4126,8 @@
           "rank": 7,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 9713333,
-          "formattedValue": "9.71M"
+          "value": 9755093,
+          "formattedValue": "9.76M"
         },
         {
           "rank": 8,
@@ -4203,7 +4203,7 @@
     },
     "Pumpkin Collection": {
       "category": "Pumpkin Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4237,8 +4237,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 3938783,
-          "formattedValue": "3.94M"
+          "value": 3962303,
+          "formattedValue": "3.96M"
         },
         {
           "rank": 6,
@@ -4321,7 +4321,7 @@
     },
     "Raw_chicken Collection": {
       "category": "Raw_chicken Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4402,24 +4402,24 @@
         },
         {
           "rank": 12,
+          "username": "DeadGato",
+          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+          "value": 60139,
+          "formattedValue": "60.14K"
+        },
+        {
+          "rank": 13,
           "username": "Deki69",
           "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
           "value": 53715,
           "formattedValue": "53.72K"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "username": "Kjaer_",
           "uuid": "4366f92b6723462c8b99b07c91edc502",
           "value": 40882,
           "formattedValue": "40.88K"
-        },
-        {
-          "rank": 14,
-          "username": "DeadGato",
-          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 23458,
-          "formattedValue": "23.46K"
         },
         {
           "rank": 15,
@@ -4446,7 +4446,7 @@
     },
     "Pork Collection": {
       "category": "Pork Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4571,7 +4571,7 @@
     },
     "Rabbit Collection": {
       "category": "Rabbit Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4696,7 +4696,7 @@
     },
     "Seeds Collection": {
       "category": "Seeds Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4730,8 +4730,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 5924063,
-          "formattedValue": "5.92M"
+          "value": 5933540,
+          "formattedValue": "5.93M"
         },
         {
           "rank": 6,
@@ -4756,17 +4756,17 @@
         },
         {
           "rank": 9,
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 2491526,
+          "formattedValue": "2.49M"
+        },
+        {
+          "rank": 10,
           "username": "Smaaaam",
           "uuid": "35dbecc5fb9e4ab4af56540732824f30",
           "value": 2378543,
           "formattedValue": "2.38M"
-        },
-        {
-          "rank": 10,
-          "username": "Akse_e",
-          "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 2318375,
-          "formattedValue": "2.32M"
         },
         {
           "rank": 11,
@@ -4821,7 +4821,7 @@
     },
     "Sugar_cane Collection": {
       "category": "Sugar_cane Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4855,15 +4855,15 @@
           "rank": 5,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 19470328,
-          "formattedValue": "19.47M"
+          "value": 19484248,
+          "formattedValue": "19.48M"
         },
         {
           "rank": 6,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 14310947,
-          "formattedValue": "14.31M"
+          "value": 14328387,
+          "formattedValue": "14.33M"
         },
         {
           "rank": 7,
@@ -4946,7 +4946,7 @@
     },
     "Wheat Collection": {
       "category": "Wheat Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -4980,8 +4980,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 7262830,
-          "formattedValue": "7.26M"
+          "value": 7285797,
+          "formattedValue": "7.29M"
         },
         {
           "rank": 6,
@@ -5015,8 +5015,8 @@
           "rank": 10,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 2145966,
-          "formattedValue": "2.15M"
+          "value": 2261152,
+          "formattedValue": "2.26M"
         },
         {
           "rank": 11,
@@ -5071,7 +5071,7 @@
     },
     "Double_plant Collection": {
       "category": "Double_plant Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5105,8 +5105,8 @@
           "rank": 5,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 2694417,
-          "formattedValue": "2.69M"
+          "value": 2712337,
+          "formattedValue": "2.71M"
         },
         {
           "rank": 6,
@@ -5175,7 +5175,7 @@
     },
     "Wild_rose Collection": {
       "category": "Wild_rose Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5223,8 +5223,8 @@
           "rank": 7,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 1398560,
-          "formattedValue": "1.40M"
+          "value": 1443680,
+          "formattedValue": "1.44M"
         },
         {
           "rank": 8,
@@ -5258,7 +5258,7 @@
     },
     "Moonflower Collection": {
       "category": "Moonflower Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5271,8 +5271,8 @@
           "rank": 2,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 37335901,
-          "formattedValue": "37.34M"
+          "value": 37349893,
+          "formattedValue": "37.35M"
         },
         {
           "rank": 3,
@@ -5362,7 +5362,7 @@
     },
     "Ink_sack:4 Collection": {
       "category": "Ink_sack:4 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5487,7 +5487,7 @@
     },
     "Redstone Collection": {
       "category": "Redstone Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5519,24 +5519,24 @@
         },
         {
           "rank": 5,
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 6024973,
+          "formattedValue": "6.02M"
+        },
+        {
+          "rank": 6,
           "username": "SoloShinda",
           "uuid": "cfff7aeeda104855b9aacbb177f0655e",
           "value": 5837786,
           "formattedValue": "5.84M"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 5774158,
+          "value": 5774434,
           "formattedValue": "5.77M"
-        },
-        {
-          "rank": 7,
-          "username": "Akse_e",
-          "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 5699498,
-          "formattedValue": "5.70M"
         },
         {
           "rank": 8,
@@ -5612,7 +5612,7 @@
     },
     "Umber Collection": {
       "category": "Umber Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5688,20 +5688,20 @@
     },
     "Coal Collection": {
       "category": "Coal Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 8846312,
-          "formattedValue": "8.85M"
+          "value": 8998189,
+          "formattedValue": "9.00M"
         },
         {
           "rank": 2,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 4838350,
+          "value": 4842178,
           "formattedValue": "4.84M"
         },
         {
@@ -5813,7 +5813,7 @@
     },
     "Mycel Collection": {
       "category": "Mycel Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5924,7 +5924,7 @@
     },
     "Ender_stone Collection": {
       "category": "Ender_stone Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -5965,8 +5965,8 @@
           "rank": 6,
           "username": "CrazyDegen",
           "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 556650,
-          "formattedValue": "556.65K"
+          "value": 557450,
+          "formattedValue": "557.45K"
         },
         {
           "rank": 7,
@@ -6042,7 +6042,7 @@
     },
     "Quartz Collection": {
       "category": "Quartz Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6167,7 +6167,7 @@
     },
     "Sand Collection": {
       "category": "Sand Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6292,7 +6292,7 @@
     },
     "Iron_ingot Collection": {
       "category": "Iron_ingot Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6326,8 +6326,8 @@
           "rank": 5,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 2454671,
-          "formattedValue": "2.45M"
+          "value": 2455441,
+          "formattedValue": "2.46M"
         },
         {
           "rank": 6,
@@ -6340,8 +6340,8 @@
           "rank": 7,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 1868341,
-          "formattedValue": "1.87M"
+          "value": 1883504,
+          "formattedValue": "1.88M"
         },
         {
           "rank": 8,
@@ -6417,7 +6417,7 @@
     },
     "Gemstone_collection Collection": {
       "category": "Gemstone_collection Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6430,8 +6430,8 @@
           "rank": 2,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 105172194,
-          "formattedValue": "105.17M"
+          "value": 105231089,
+          "formattedValue": "105.23M"
         },
         {
           "rank": 3,
@@ -6542,7 +6542,7 @@
     },
     "Tungsten Collection": {
       "category": "Tungsten Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6604,7 +6604,7 @@
     },
     "Obsidian Collection": {
       "category": "Obsidian Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6729,7 +6729,7 @@
     },
     "Diamond Collection": {
       "category": "Diamond Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6777,8 +6777,8 @@
           "rank": 7,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 27161991,
-          "formattedValue": "27.16M"
+          "value": 27213293,
+          "formattedValue": "27.21M"
         },
         {
           "rank": 8,
@@ -6824,24 +6824,24 @@
         },
         {
           "rank": 14,
+          "username": "DeadGato",
+          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+          "value": 476997,
+          "formattedValue": "477.00K"
+        },
+        {
+          "rank": 15,
           "username": "Smaaaam",
           "uuid": "35dbecc5fb9e4ab4af56540732824f30",
           "value": 420699,
           "formattedValue": "420.70K"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 357143,
-          "formattedValue": "357.14K"
-        },
-        {
-          "rank": 16,
-          "username": "DeadGato",
-          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 351123,
-          "formattedValue": "351.12K"
+          "value": 372258,
+          "formattedValue": "372.26K"
         },
         {
           "rank": 17,
@@ -6854,7 +6854,7 @@
     },
     "Cobblestone Collection": {
       "category": "Cobblestone Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -6944,8 +6944,8 @@
           "rank": 13,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 908252,
-          "formattedValue": "908.25K"
+          "value": 908572,
+          "formattedValue": "908.57K"
         },
         {
           "rank": 14,
@@ -6958,8 +6958,8 @@
           "rank": 15,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 670884,
-          "formattedValue": "670.88K"
+          "value": 670936,
+          "formattedValue": "670.94K"
         },
         {
           "rank": 16,
@@ -6972,14 +6972,14 @@
           "rank": 17,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 317329,
-          "formattedValue": "317.33K"
+          "value": 317552,
+          "formattedValue": "317.55K"
         }
       ]
     },
     "Glowstone_dust Collection": {
       "category": "Glowstone_dust Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7097,7 +7097,7 @@
     },
     "Gold_ingot Collection": {
       "category": "Gold_ingot Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7194,8 +7194,8 @@
           "rank": 14,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 712606,
-          "formattedValue": "712.61K"
+          "value": 712674,
+          "formattedValue": "712.67K"
         },
         {
           "rank": 15,
@@ -7222,7 +7222,7 @@
     },
     "Gravel Collection": {
       "category": "Gravel Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7333,21 +7333,21 @@
     },
     "Hard_stone Collection": {
       "category": "Hard_stone Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 124076085,
-          "formattedValue": "124.08M"
+          "value": 125712641,
+          "formattedValue": "125.71M"
         },
         {
           "rank": 2,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 61382531,
-          "formattedValue": "61.38M"
+          "value": 61464473,
+          "formattedValue": "61.46M"
         },
         {
           "rank": 3,
@@ -7458,7 +7458,7 @@
     },
     "Mithril_ore Collection": {
       "category": "Mithril_ore Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7527,7 +7527,7 @@
           "rank": 10,
           "username": "Akse_e",
           "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 2799196,
+          "value": 2799261,
           "formattedValue": "2.80M"
         },
         {
@@ -7583,7 +7583,7 @@
     },
     "Emerald Collection": {
       "category": "Emerald Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7666,8 +7666,8 @@
           "rank": 12,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 43276,
-          "formattedValue": "43.28K"
+          "value": 43381,
+          "formattedValue": "43.38K"
         },
         {
           "rank": 13,
@@ -7708,7 +7708,7 @@
     },
     "Sand:1 Collection": {
       "category": "Sand:1 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7805,7 +7805,7 @@
     },
     "Ice Collection": {
       "category": "Ice Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -7846,8 +7846,8 @@
           "rank": 6,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 2339282,
-          "formattedValue": "2.34M"
+          "value": 2441013,
+          "formattedValue": "2.44M"
         },
         {
           "rank": 7,
@@ -7930,7 +7930,7 @@
     },
     "Glacite Collection": {
       "category": "Glacite Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8006,7 +8006,7 @@
     },
     "Sulphur_ore Collection": {
       "category": "Sulphur_ore Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8124,7 +8124,7 @@
     },
     "Netherrack Collection": {
       "category": "Netherrack Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8235,7 +8235,7 @@
     },
     "Ender_pearl Collection": {
       "category": "Ender_pearl Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8262,8 +8262,8 @@
           "rank": 4,
           "username": "CrazyDegen",
           "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 483448,
-          "formattedValue": "483.45K"
+          "value": 489196,
+          "formattedValue": "489.20K"
         },
         {
           "rank": 5,
@@ -8360,12 +8360,12 @@
     },
     "Chili_pepper Collection": {
       "category": "Chili_pepper Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": []
     },
     "Slime_ball Collection": {
       "category": "Slime_ball Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8490,7 +8490,7 @@
     },
     "Magma_cream Collection": {
       "category": "Magma_cream Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8594,7 +8594,7 @@
     },
     "Ghast_tear Collection": {
       "category": "Ghast_tear Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8677,7 +8677,7 @@
     },
     "Sulphur Collection": {
       "category": "Sulphur Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8802,7 +8802,7 @@
     },
     "Rotten_flesh Collection": {
       "category": "Rotten_flesh Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -8878,8 +8878,8 @@
           "rank": 11,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 276298,
-          "formattedValue": "276.30K"
+          "value": 296778,
+          "formattedValue": "296.78K"
         },
         {
           "rank": 12,
@@ -8906,8 +8906,8 @@
           "rank": 15,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 26106,
-          "formattedValue": "26.11K"
+          "value": 26361,
+          "formattedValue": "26.36K"
         },
         {
           "rank": 16,
@@ -8927,7 +8927,7 @@
     },
     "Spider_eye Collection": {
       "category": "Spider_eye Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9052,7 +9052,7 @@
     },
     "Bone Collection": {
       "category": "Bone Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9149,8 +9149,8 @@
           "rank": 14,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 55600,
-          "formattedValue": "55.60K"
+          "value": 56080,
+          "formattedValue": "56.08K"
         },
         {
           "rank": 15,
@@ -9177,7 +9177,7 @@
     },
     "Blaze_rod Collection": {
       "category": "Blaze_rod Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9295,7 +9295,7 @@
     },
     "String Collection": {
       "category": "String Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9371,8 +9371,8 @@
           "rank": 11,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 84992,
-          "formattedValue": "84.99K"
+          "value": 115712,
+          "formattedValue": "115.71K"
         },
         {
           "rank": 12,
@@ -9413,14 +9413,14 @@
           "rank": 17,
           "username": "00ish",
           "uuid": "ca241a626fff4a229256038ec048ce9a",
-          "value": 4206,
+          "value": 4209,
           "formattedValue": "4.21K"
         }
       ]
     },
     "Sea_lumies Collection": {
       "category": "Sea_lumies Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9545,7 +9545,7 @@
     },
     "Log_2 Collection": {
       "category": "Log_2 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9670,7 +9670,7 @@
     },
     "Log:1 Collection": {
       "category": "Log:1 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9795,7 +9795,7 @@
     },
     "Log:3 Collection": {
       "category": "Log:3 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -9920,7 +9920,7 @@
     },
     "Log:2 Collection": {
       "category": "Log:2 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10045,7 +10045,7 @@
     },
     "Lushlilac Collection": {
       "category": "Lushlilac Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10170,7 +10170,7 @@
     },
     "Vinesap Collection": {
       "category": "Vinesap Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10274,7 +10274,7 @@
     },
     "Mangrove_log Collection": {
       "category": "Mangrove_log Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10399,7 +10399,7 @@
     },
     "Log Collection": {
       "category": "Log Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10524,7 +10524,7 @@
     },
     "Fig_log Collection": {
       "category": "Fig_log Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10649,7 +10649,7 @@
     },
     "Tender_wood Collection": {
       "category": "Tender_wood Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10774,7 +10774,7 @@
     },
     "Log_2:1 Collection": {
       "category": "Log_2:1 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -10899,7 +10899,7 @@
     },
     "Water_lily Collection": {
       "category": "Water_lily Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11024,7 +11024,7 @@
     },
     "Prismarine_shard Collection": {
       "category": "Prismarine_shard Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11072,8 +11072,8 @@
           "rank": 7,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 24134,
-          "formattedValue": "24.13K"
+          "value": 25926,
+          "formattedValue": "25.93K"
         },
         {
           "rank": 8,
@@ -11149,7 +11149,7 @@
     },
     "Ink_sack Collection": {
       "category": "Ink_sack Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11274,7 +11274,7 @@
     },
     "Raw_fish Collection": {
       "category": "Raw_fish Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11322,8 +11322,8 @@
           "rank": 7,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 255749,
-          "formattedValue": "255.75K"
+          "value": 293067,
+          "formattedValue": "293.07K"
         },
         {
           "rank": 8,
@@ -11399,7 +11399,7 @@
     },
     "Raw_fish:3 Collection": {
       "category": "Raw_fish:3 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11454,8 +11454,8 @@
           "rank": 8,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 31005,
-          "formattedValue": "31.00K"
+          "value": 39128,
+          "formattedValue": "39.13K"
         },
         {
           "rank": 9,
@@ -11524,7 +11524,7 @@
     },
     "Raw_fish:2 Collection": {
       "category": "Raw_fish:2 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11572,8 +11572,8 @@
           "rank": 7,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 15364,
-          "formattedValue": "15.36K"
+          "value": 17337,
+          "formattedValue": "17.34K"
         },
         {
           "rank": 8,
@@ -11649,7 +11649,7 @@
     },
     "Raw_fish:1 Collection": {
       "category": "Raw_fish:1 Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11695,17 +11695,17 @@
         },
         {
           "rank": 7,
+          "username": "DeadGato",
+          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
+          "value": 97167,
+          "formattedValue": "97.17K"
+        },
+        {
+          "rank": 8,
           "username": "Pixxx32",
           "uuid": "b9ab77265cab4ebe9f114389b76911ac",
           "value": 86643,
           "formattedValue": "86.64K"
-        },
-        {
-          "rank": 8,
-          "username": "DeadGato",
-          "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 81745,
-          "formattedValue": "81.75K"
         },
         {
           "rank": 9,
@@ -11774,7 +11774,7 @@
     },
     "Magma_fish Collection": {
       "category": "Magma_fish Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11864,7 +11864,7 @@
     },
     "Prismarine_crystals Collection": {
       "category": "Prismarine_crystals Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -11912,8 +11912,8 @@
           "rank": 7,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 22531,
-          "formattedValue": "22.53K"
+          "value": 24355,
+          "formattedValue": "24.36K"
         },
         {
           "rank": 8,
@@ -11989,7 +11989,7 @@
     },
     "Clay_ball Collection": {
       "category": "Clay_ball Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12114,7 +12114,7 @@
     },
     "Sponge Collection": {
       "category": "Sponge Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12162,8 +12162,8 @@
           "rank": 7,
           "username": "DeadGato",
           "uuid": "b1a9320159db43d1990dbcfaaee7d13b",
-          "value": 23459,
-          "formattedValue": "23.46K"
+          "value": 25329,
+          "formattedValue": "25.33K"
         },
         {
           "rank": 8,
@@ -12239,7 +12239,7 @@
     },
     "Wilted_berberis Collection": {
       "category": "Wilted_berberis Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12294,7 +12294,7 @@
     },
     "Metal_heart Collection": {
       "category": "Metal_heart Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12342,7 +12342,7 @@
     },
     "Caducous_stem Collection": {
       "category": "Caducous_stem Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12397,7 +12397,7 @@
     },
     "Agaricus_cap Collection": {
       "category": "Agaricus_cap Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12452,7 +12452,7 @@
     },
     "Hemovibe Collection": {
       "category": "Hemovibe Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12500,7 +12500,7 @@
     },
     "Half_eaten_carrot Collection": {
       "category": "Half_eaten_carrot Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12548,7 +12548,7 @@
     },
     "Timite Collection": {
       "category": "Timite Collection",
-      "lastUpdated": "2026-02-13 12:00:14",
+      "lastUpdated": "2026-02-13 15:00:14",
       "members": [
         {
           "rank": 1,
@@ -12567,5 +12567,5 @@
       ]
     }
   },
-  "lastUpdated": "2026-02-13 12:00:14"
+  "lastUpdated": "2026-02-13 15:00:14"
 }
