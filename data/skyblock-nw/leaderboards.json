@@ -2,251 +2,251 @@
   "leaderboards": {
     "Most Expensive Item": {
       "category": "Most Expensive Item",
-      "lastUpdated": "2026-02-28 13:22:06",
+      "lastUpdated": "2026-04-24 23:15:26",
       "members": [
         {
           "rank": 1,
-          "username": "L9Kogmaw",
-          "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 1644467180.5743184,
-          "formattedValue": "Lustrous Divan's Drill (1.64B)"
+          "username": "Pixxx32",
+          "uuid": "b9ab77265cab4ebe9f114389b76911ac",
+          "value": 2114602425.645,
+          "formattedValue": "Lustrous Divan's Drill (2.11B)"
         },
         {
           "rank": 2,
-          "username": "Leetax",
-          "uuid": "2fe38d08df04477480b3f800f69dc948",
-          "value": 1448909899.505265,
-          "formattedValue": "Heroic Hyperion ✪✪✪✪✪ (1.45B)"
+          "username": "L9Kogmaw",
+          "uuid": "a2c0c9099b624665876ed24996866327",
+          "value": 1874985290.415,
+          "formattedValue": "Lustrous Divan's Drill (1.87B)"
         },
         {
           "rank": 3,
-          "username": "DKZeuss",
-          "uuid": "00502e232682441fba354172e6fc9cef",
-          "value": 649497906.97,
-          "formattedValue": "[Lvl 107] Legendary Golden Dragon (649.50M)"
+          "username": "Leetax",
+          "uuid": "2fe38d08df04477480b3f800f69dc948",
+          "value": 1436415400.9558334,
+          "formattedValue": "Heroic Hyperion ✪✪✪✪✪ (1.44B)"
         },
         {
           "rank": 4,
-          "username": "Pixxx32",
-          "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 634772452.0825,
-          "formattedValue": "Lustrous Titanium Drill DR-X655 (634.77M)"
+          "username": "DKZeuss",
+          "uuid": "00502e232682441fba354172e6fc9cef",
+          "value": 670568301.2966666,
+          "formattedValue": "Lustrous Titanium Drill DR-X655 (670.57M)"
         },
         {
           "rank": 5,
-          "username": "SoloShinda",
-          "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-          "value": 530312990.1075,
-          "formattedValue": "Lustrous Titanium Drill DR-X655 (530.31M)"
+          "username": "PitHatred",
+          "uuid": "185aa48d293d4cdd9a842547ca23431b",
+          "value": 642797003.215,
+          "formattedValue": "Hasty Terminator ✪✪✪✪✪➊ (642.80M)"
         },
         {
           "rank": 6,
-          "username": "SalutSavatte",
-          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
-          "value": 414091601.9825,
-          "formattedValue": "Auspicious Titanium Drill DR-X655 (414.09M)"
+          "username": "SoloShinda",
+          "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+          "value": 614592254.2716666,
+          "formattedValue": "Lustrous Titanium Drill DR-X655 (614.59M)"
         },
         {
           "rank": 7,
-          "username": "CrazyDegen",
-          "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 295000000,
-          "formattedValue": "Plasmaflux Power Orb (295.00M)"
+          "username": "SalutSavatte",
+          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+          "value": 461556158.16166663,
+          "formattedValue": "Auspicious Titanium Drill DR-X655 (461.56M)"
         },
         {
           "rank": 8,
-          "username": "Deki69",
-          "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-          "value": 257822734.78333333,
-          "formattedValue": "Fruitful Titanium Drill DR-X555 (257.82M)"
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 420000000,
+          "formattedValue": "Necron's Blade (Unrefined) (420.00M)"
         },
         {
           "rank": 9,
-          "username": "njouwastaken2",
-          "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-          "value": 229659243.37833333,
-          "formattedValue": "Stellar Titanium Drill DR-X555 (229.66M)"
+          "username": "Deki69",
+          "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+          "value": 260351380.87,
+          "formattedValue": "Fruitful Titanium Drill DR-X555 (260.35M)"
         },
         {
           "rank": 10,
-          "username": "wtrfall",
-          "uuid": "6e608d4c121643a9a0ded71713be0be1",
-          "value": 197897351.6925,
-          "formattedValue": "Auspicious Titanium Drill DR-X555 (197.90M)"
+          "username": "njouwastaken2",
+          "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+          "value": 239170413.2648485,
+          "formattedValue": "Stellar Titanium Drill DR-X555 (239.17M)"
         },
         {
           "rank": 11,
-          "username": "Akse_e",
-          "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 97068778.92750001,
-          "formattedValue": "Auspicious Titanium Drill DR-X455 (97.07M)"
+          "username": "wtrfall",
+          "uuid": "6e608d4c121643a9a0ded71713be0be1",
+          "value": 194457517.57166666,
+          "formattedValue": "Auspicious Titanium Drill DR-X555 (194.46M)"
         },
         {
           "rank": 12,
-          "username": "Kjaer_",
-          "uuid": "4366f92b6723462c8b99b07c91edc502",
-          "value": 88539414.9944643,
-          "formattedValue": "Blessed Newton Nether Wart Hoe Mk. III (88.54M)"
+          "username": "ArtOfRat",
+          "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
+          "value": 80114492.55,
+          "formattedValue": "Auspicious Titanium Drill DR-X455 (80.11M)"
         },
         {
           "rank": 13,
-          "username": "ArtOfRat",
-          "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-          "value": 78467949.775,
-          "formattedValue": "Auspicious Titanium Drill DR-X455 (78.47M)"
+          "username": "Kjaer_",
+          "uuid": "4366f92b6723462c8b99b07c91edc502",
+          "value": 77246081.9,
+          "formattedValue": "Dedication (77.25M)"
         },
         {
           "rank": 14,
           "username": "Smaaaam",
           "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-          "value": 33374241.918805555,
-          "formattedValue": "Pythagorean Potato Hoe Mk. II (33.37M)"
+          "value": 37469086.10867446,
+          "formattedValue": "[Lvl 95] Legendary Blaze (37.47M)"
         },
         {
           "rank": 15,
           "username": "Merca_Mage",
           "uuid": "e0d51ebe369842a4a078b011316427e6",
-          "value": 24519999,
-          "formattedValue": "[Lvl 100] Legendary Bee (24.52M)"
+          "value": 30050000,
+          "formattedValue": "[Lvl 100] Legendary Bee (30.05M)"
         },
         {
           "rank": 16,
           "username": "Joeycakes45",
           "uuid": "f5ae021b89174eca98c47561dab7147b",
-          "value": 21219264.752173916,
-          "formattedValue": "Euclid's Wheat Hoe Mk. I (21.22M)"
+          "value": 22909519.66,
+          "formattedValue": "Titanium Drill DR-X355 (22.91M)"
         },
         {
           "rank": 17,
           "username": "Shiniguy",
           "uuid": "ce0a165ee10b45debb4953834d05f3cf",
-          "value": 12000000,
-          "formattedValue": "[Lvl 100] Legendary Rabbit (12.00M)"
+          "value": 10750000,
+          "formattedValue": "[Lvl 100] Legendary Rabbit (10.75M)"
         }
       ]
     },
     "Networth": {
       "category": "Networth",
-      "lastUpdated": "2026-02-28 13:22:06",
+      "lastUpdated": "2026-04-24 23:15:26",
       "members": [
         {
           "rank": 1,
           "username": "Leetax",
           "uuid": "2fe38d08df04477480b3f800f69dc948",
-          "value": 10371287167.255909,
-          "formattedValue": "10.37B"
+          "value": 10586119861.859863,
+          "formattedValue": "10.59B"
         },
         {
           "rank": 2,
           "username": "L9Kogmaw",
           "uuid": "a2c0c9099b624665876ed24996866327",
-          "value": 7780842427.086095,
-          "formattedValue": "7.78B"
+          "value": 10450749561.246613,
+          "formattedValue": "10.45B"
         },
         {
           "rank": 3,
-          "username": "DKZeuss",
-          "uuid": "00502e232682441fba354172e6fc9cef",
-          "value": 6676926666.437333,
-          "formattedValue": "6.68B"
+          "username": "Pixxx32",
+          "uuid": "b9ab77265cab4ebe9f114389b76911ac",
+          "value": 7577808685.270583,
+          "formattedValue": "7.58B"
         },
         {
           "rank": 4,
-          "username": "CrazyDegen",
-          "uuid": "185aa48d293d4cdd9a842547ca23431b",
-          "value": 5314662443.462313,
-          "formattedValue": "5.31B"
+          "username": "DKZeuss",
+          "uuid": "00502e232682441fba354172e6fc9cef",
+          "value": 7204127016.194245,
+          "formattedValue": "7.20B"
         },
         {
           "rank": 5,
-          "username": "SoloShinda",
-          "uuid": "cfff7aeeda104855b9aacbb177f0655e",
-          "value": 4693287626.831387,
-          "formattedValue": "4.69B"
+          "username": "PitHatred",
+          "uuid": "185aa48d293d4cdd9a842547ca23431b",
+          "value": 5488365700.083575,
+          "formattedValue": "5.49B"
         },
         {
           "rank": 6,
-          "username": "Pixxx32",
-          "uuid": "b9ab77265cab4ebe9f114389b76911ac",
-          "value": 3324378828.86057,
-          "formattedValue": "3.32B"
+          "username": "SoloShinda",
+          "uuid": "cfff7aeeda104855b9aacbb177f0655e",
+          "value": 5263926942.029513,
+          "formattedValue": "5.26B"
         },
         {
           "rank": 7,
           "username": "wtrfall",
           "uuid": "6e608d4c121643a9a0ded71713be0be1",
-          "value": 2467046258.241493,
-          "formattedValue": "2.47B"
+          "value": 3378485288.759298,
+          "formattedValue": "3.38B"
         },
         {
           "rank": 8,
-          "username": "SalutSavatte",
-          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
-          "value": 2445328010.622777,
-          "formattedValue": "2.45B"
+          "username": "Akse_e",
+          "uuid": "5bfccebcbda5455690323d89eb254c30",
+          "value": 3291521893.580923,
+          "formattedValue": "3.29B"
         },
         {
           "rank": 9,
-          "username": "Akse_e",
-          "uuid": "5bfccebcbda5455690323d89eb254c30",
-          "value": 2313930987.0308337,
-          "formattedValue": "2.31B"
+          "username": "SalutSavatte",
+          "uuid": "49a3c8b22cac40ec91d7c7f99ec6246b",
+          "value": 3000606805.5975766,
+          "formattedValue": "3.00B"
         },
         {
           "rank": 10,
-          "username": "njouwastaken2",
-          "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
-          "value": 2230526786.964398,
+          "username": "Deki69",
+          "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
+          "value": 2230930960.3578176,
           "formattedValue": "2.23B"
         },
         {
           "rank": 11,
-          "username": "Deki69",
-          "uuid": "6d28e5c608b04014a7d02dd620b32a8e",
-          "value": 2102174475.887779,
-          "formattedValue": "2.10B"
+          "username": "njouwastaken2",
+          "uuid": "a2210280f1784c42b4d6710e70dd0c8d",
+          "value": 2203344954.6099653,
+          "formattedValue": "2.20B"
         },
         {
           "rank": 12,
           "username": "Kjaer_",
           "uuid": "4366f92b6723462c8b99b07c91edc502",
-          "value": 1576548111.3908014,
-          "formattedValue": "1.58B"
+          "value": 1447011982.5127342,
+          "formattedValue": "1.45B"
         },
         {
           "rank": 13,
           "username": "ArtOfRat",
           "uuid": "1b0b848e2e66487985ec71b38cd7ad83",
-          "value": 805954997.4729624,
-          "formattedValue": "805.95M"
+          "value": 767173317.5465659,
+          "formattedValue": "767.17M"
         },
         {
           "rank": 14,
           "username": "Smaaaam",
           "uuid": "35dbecc5fb9e4ab4af56540732824f30",
-          "value": 558033858.9728882,
-          "formattedValue": "558.03M"
+          "value": 587787090.0461587,
+          "formattedValue": "587.79M"
         },
         {
           "rank": 15,
           "username": "Joeycakes45",
           "uuid": "f5ae021b89174eca98c47561dab7147b",
-          "value": 158878668.2930789,
-          "formattedValue": "158.88M"
+          "value": 251168433.623519,
+          "formattedValue": "251.17M"
         },
         {
           "rank": 16,
           "username": "Merca_Mage",
           "uuid": "e0d51ebe369842a4a078b011316427e6",
-          "value": 113930253.12318172,
-          "formattedValue": "113.93M"
+          "value": 135731341.59801486,
+          "formattedValue": "135.73M"
         },
         {
           "rank": 17,
           "username": "Shiniguy",
           "uuid": "ce0a165ee10b45debb4953834d05f3cf",
-          "value": 37378646.20945948,
-          "formattedValue": "37.38M"
+          "value": 37926984.041448146,
+          "formattedValue": "37.93M"
         }
       ]
     }
